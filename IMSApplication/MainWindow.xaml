@@ -1,0 +1,155 @@
+﻿<Window x:Class="IMSApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IMSApplication"
+        mc:Ignorable="d"
+        Title="IMS - TIME TRAX [KEYSTROKE TRADING HOUSE PVT. LTD.]" Height="350" Width="525">
+    <Grid Background="#FF5B5BF3">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <DockPanel Grid.ColumnSpan="6">
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="_File">
+                    <MenuItem Header="New"  />
+                    <MenuItem Header="Open" />
+                    <Separator />
+                    <MenuItem>
+                        <MenuItem.Header>
+                            <DockPanel>
+                                <TextBlock>Step</TextBlock>
+                                <TextBlock Width="10"></TextBlock>
+                                <TextBlock HorizontalAlignment="Right">F2</TextBlock>
+                            </DockPanel>
+                        </MenuItem.Header>
+                    </MenuItem>
+                </MenuItem>
+
+                <MenuItem Header="_Master Setting">
+                    <MenuItem Header="New"  />
+                    <MenuItem Header="Open" />
+                    <Separator />
+                    <MenuItem>
+                        <MenuItem.Header>
+                            <DockPanel>
+                                <TextBlock>Step</TextBlock>
+                                <TextBlock Width="10"></TextBlock>
+                                <TextBlock HorizontalAlignment="Right">F2</TextBlock>
+                            </DockPanel>
+                        </MenuItem.Header>
+                    </MenuItem>
+                </MenuItem>
+
+                <MenuItem Header="_Transaction">
+                    <MenuItem Header="New"  />
+                    <MenuItem Header="Open" />
+                    <Separator />
+                    <MenuItem>
+                        <MenuItem.Header>
+                            <DockPanel>
+                                <TextBlock>Step</TextBlock>
+                                <TextBlock Width="10"></TextBlock>
+                                <TextBlock HorizontalAlignment="Right">F2</TextBlock>
+                            </DockPanel>
+                        </MenuItem.Header>
+                    </MenuItem>
+                </MenuItem>
+
+                <MenuItem Header="_Report">
+                    <MenuItem Header="New"  />
+                    <MenuItem Header="Open" />
+                    <Separator />
+                    <MenuItem>
+                        <MenuItem.Header>
+                            <DockPanel>
+                                <TextBlock>Step</TextBlock>
+                                <TextBlock Width="10"></TextBlock>
+                                <TextBlock HorizontalAlignment="Right">F2</TextBlock>
+                            </DockPanel>
+                        </MenuItem.Header>
+                    </MenuItem>
+                </MenuItem>
+
+                <MenuItem Header="_Data Utility">
+                    <MenuItem Header="New"  />
+                    <MenuItem Header="Open" />
+                    <Separator />
+                    <MenuItem>
+                        <MenuItem.Header>
+                            <DockPanel>
+                                <TextBlock>Step</TextBlock>
+                                <TextBlock Width="10"></TextBlock>
+                                <TextBlock HorizontalAlignment="Right">F2</TextBlock>
+                            </DockPanel>
+                        </MenuItem.Header>
+                    </MenuItem>
+                </MenuItem>
+
+                <MenuItem Header="_Device Settings">
+                    <MenuItem Header="New"  />
+                    <MenuItem Header="Open" />
+                    <Separator />
+                    <MenuItem>
+                        <MenuItem.Header>
+                            <DockPanel>
+                                <TextBlock>Step</TextBlock>
+                                <TextBlock Width="10"></TextBlock>
+                                <TextBlock HorizontalAlignment="Right">F2</TextBlock>
+                            </DockPanel>
+                        </MenuItem.Header>
+                    </MenuItem>
+                </MenuItem>
+
+                <MenuItem Header="_Windows">
+                    <MenuItem Header="New"  />
+                    <MenuItem Header="Open" />
+                    <Separator />
+                    <MenuItem>
+                        <MenuItem.Header>
+                            <DockPanel>
+                                <TextBlock>Step</TextBlock>
+                                <TextBlock Width="10"></TextBlock>
+                                <TextBlock HorizontalAlignment="Right">F2</TextBlock>
+                            </DockPanel>
+                        </MenuItem.Header>
+                    </MenuItem>
+                </MenuItem>
+
+                <MenuItem Header="_Help">
+                    <MenuItem Header="New"  />
+                    <MenuItem Header="Open" />
+                    <Separator />
+                    <MenuItem>
+                        <MenuItem.Header>
+                            <DockPanel>
+                                <TextBlock>Step</TextBlock>
+                                <TextBlock Width="10"></TextBlock>
+                                <TextBlock HorizontalAlignment="Right">F2</TextBlock>
+                            </DockPanel>
+                        </MenuItem.Header>
+                    </MenuItem>
+                </MenuItem>
+            </Menu>
+            <StackPanel Background="#FF6081C3"></StackPanel>
+        </DockPanel>
+
+        <DockPanel Grid.ColumnSpan="6">
+            <Grid DockPanel.Dock="Bottom" Background="#FFF3F0F0">
+                <TextBlock TextWrapping="Wrap" Text=" KEYSTONE TRADING HOUSE PVT. LTD., 1974, THIRBAM SADAK - 3, BHATBHATENI,,"></TextBlock>
+            </Grid>
+            <TextBlock Visibility="Hidden"></TextBlock>
+        </DockPanel>
+        
+        <Viewbox Height="40" Width="200" Grid.Column="1" Margin="80.934,140,159,139">
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="IMS - Time Trax" VerticalAlignment="Top" FontSize="50"/>
+
+        </Viewbox>
+    </Grid>
+</Window>

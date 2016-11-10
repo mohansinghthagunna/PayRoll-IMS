@@ -1,0 +1,14 @@
+c:\users\ith-143\documents\visual studio 2015\Projects\IMSApplication\IMSApplication\bin\Debug\IMSApplication.exe.config
+c:\users\ith-143\documents\visual studio 2015\Projects\IMSApplication\IMSApplication\bin\Debug\IMSApplication.exe
+c:\users\ith-143\documents\visual studio 2015\Projects\IMSApplication\IMSApplication\bin\Debug\IMSApplication.pdb
+c:\users\ith-143\documents\visual studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\IMSApplication.csprojResolveAssemblyReference.cache
+c:\users\ith-143\documents\visual studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\MainWindow.g.cs
+c:\users\ith-143\documents\visual studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\App.g.cs
+c:\users\ith-143\documents\visual studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\IMSApplication_MarkupCompile.cache
+c:\users\ith-143\documents\visual studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\IMSApplication_MarkupCompile.lref
+c:\users\ith-143\documents\visual studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\MainWindow.baml
+c:\users\ith-143\documents\visual studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\IMSApplication.g.resources
+c:\users\ith-143\documents\visual studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\IMSApplication.Properties.Resources.resources
+c:\users\ith-143\documents\visual studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\IMSApplication.csproj.GenerateResource.Cache
+c:\users\ith-143\documents\visual studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\IMSApplication.exe
+c:\users\ith-143\documents\visual studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\IMSApplication.pdb
