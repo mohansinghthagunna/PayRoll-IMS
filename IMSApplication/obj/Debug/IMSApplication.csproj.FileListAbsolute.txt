@@ -15,14 +15,14 @@ c:\users\ith-143\documents\visual studio 2015\Projects\IMSApplication\IMSApplica
 C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\bin\Debug\IMSApplication.exe.config
 C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\bin\Debug\IMSApplication.exe
 C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\bin\Debug\IMSApplication.pdb
-C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Branch.baml
-C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Brands.baml
-C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\CompanyInformation.baml
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Master Setting\Branch.baml
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\File\CompanyInformation.baml
 C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\MainWindow.baml
-C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Branch.g.cs
-C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Brands.g.cs
-C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\CompanyInformation.g.cs
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Master Setting\Employee Detail.baml
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Master Setting\Branch.g.cs
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\File\CompanyInformation.g.cs
 C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\MainWindow.g.cs
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Master Setting\Employee Detail.g.cs
 C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\App.g.cs
 C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\IMSApplication_MarkupCompile.cache
 C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\IMSApplication.g.resources
@@ -30,3 +30,6 @@ C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\
 C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\IMSApplication.csproj.GenerateResource.Cache
 C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\IMSApplication.exe
 C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\IMSApplication.pdb
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\IMSApplication.csprojResolveAssemblyReference.cache
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Master Setting\Bands.baml
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Master Setting\Bands.g.cs

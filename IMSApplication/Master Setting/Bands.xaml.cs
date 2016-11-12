@@ -17,10 +17,10 @@ namespace IMS
     /// <summary>
     /// Interaction logic for Brands.xaml
     /// </summary>
-    public partial class Brands : Window
+    public partial class Bands : Window
     {
         private MainWindow _parentWindow;
-        public Brands( MainWindow mainWindow)
+        public Bands( MainWindow mainWindow)
         {
             InitializeComponent();
             _parentWindow = mainWindow;

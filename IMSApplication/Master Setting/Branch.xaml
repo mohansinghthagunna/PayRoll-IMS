@@ -55,18 +55,15 @@
         <Label Content="Out Branch" Grid.Row="6" Grid.Column="5" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
 
 
-        <ListView Grid.Column="1" Grid.Row="10" Grid.ColumnSpan="10" Grid.RowSpan="1">
-            <ListView.View>
-                <GridView>
+        <DataGrid Grid.Column="1" Grid.ColumnSpan="20" Grid.Row="10" Grid.RowSpan="1">
+            <DataGrid.Columns>
+                <DataGridCheckBoxColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="S.No." MinWidth="40" MaxWidth="40"/>
+                <DataGridCheckBoxColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Branch Id" MinWidth="70" MaxWidth="70"/>
+                <DataGridCheckBoxColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Branch Name" MinWidth="180" MaxWidth="180"/>
+                <DataGridCheckBoxColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Out Branch" MinWidth="180" MaxWidth="180"/>
+            </DataGrid.Columns>
 
-                    <GridViewColumn Width="0px"></GridViewColumn>
-                    <GridViewColumn Header="S.No" Width="40px"></GridViewColumn>
-                    <GridViewColumn Header="Id" Width="30px"></GridViewColumn>
-                    <GridViewColumn Header="Name" Width="340px"></GridViewColumn>
-                    <GridViewColumn Header="Date" Width="80"></GridViewColumn>
-                </GridView>
-            </ListView.View>
-        </ListView>
+        </DataGrid>
 
 
         <Button Grid.Row="12" Grid.RowSpan="1" Grid.Column="1" Grid.ColumnSpan="10" Content="Set Employee for Branchwise Attendance Restriction"/>

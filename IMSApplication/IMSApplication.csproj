@@ -55,15 +55,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="Branch.xaml">
+    <Page Include="Master Setting\Branch.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Brands.xaml">
+    <Page Include="Master Setting\Bands.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="CompanyInformation.xaml">
+    <Page Include="File\CompanyInformation.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -75,21 +75,28 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Branch.xaml.cs">
+    <Compile Include="Master Setting\Branch.xaml.cs">
       <DependentUpon>Branch.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Brands.xaml.cs">
-      <DependentUpon>Brands.xaml</DependentUpon>
+    <Compile Include="Master Setting\Bands.xaml.cs">
+      <DependentUpon>Bands.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CompanyInformation.xaml.cs">
+    <Compile Include="File\CompanyInformation.xaml.cs">
       <DependentUpon>CompanyInformation.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Master Setting\Employee Detail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Master Setting\Employee Detail.xaml.cs">
+      <DependentUpon>Employee Detail.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -116,6 +123,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

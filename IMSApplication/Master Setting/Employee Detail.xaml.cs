@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IMS;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,18 +13,18 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace IMS
+namespace IMSApplication.Master_Setting
 {
     /// <summary>
-    /// Interaction logic for CompanyInformation.xaml
+    /// Interaction logic for Employee_Detail.xaml
     /// </summary>
-    public partial class CompanyInformation : Window
+    public partial class Employee_Detail : Window
     {
-        public CompanyInformation()
+        private MainWindow _parentwindow;
+        public Employee_Detail(MainWindow mainWindow)
         {
+            _parentwindow = mainWindow;
             InitializeComponent();
         }
-
-        
     }
 }

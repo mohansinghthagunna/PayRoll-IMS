@@ -11,19 +11,19 @@
         </Grid.RowDefinitions>
         <Menu HorizontalAlignment="Left" VerticalAlignment="Top" Width="1360" Background="#FF6AD2F9" >
             <MenuItem Header="File" FontSize="12">
-                <MenuItem Header="Company Information" FontSize="12" HorizontalAlignment="Left" Click="companyinformation_Click"/>
+                <MenuItem Header="Company Information" FontSize="12"   Tag="0" Click="fileMenuSelect"/>
                 <Separator/>
-                <MenuItem Header="Logout 'Admin'" FontSize="12" HorizontalAlignment="Left"/>
-                <MenuItem Header="Exit" FontSize="12" HorizontalAlignment="Left"/>
+                <MenuItem Header="Logout 'Admin'" FontSize="12" Click="fileMenuSelect" Tag="1"/>
+                <MenuItem Header="Exit" FontSize="12"  Click="fileMenuSelect" Tag="2"/>
 
             </MenuItem>
             <MenuItem Header="Master Setting" FontSize="12">
-                <MenuItem Header="Employee Detail" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Header="Employee Detail" Tag="0" Click="masterSettingMenuSelect"  FontSize="12px"/>
                 <Separator/>
-                <MenuItem Header="Brand" Click="brand_click" FontSize="12px"/>
-                <MenuItem Header="Branch" FontSize="12px" Click="branch_click"/>
-                <MenuItem Header="Department" FontSize="12px"/>
-                <MenuItem Header="Designation" FontSize="12px"/>
+                <MenuItem Header="Band" Tag="1" Click="masterSettingMenuSelect" FontSize="12px"/>
+                <MenuItem Header="Branch" FontSize="12px" Tag="2" Click="masterSettingMenuSelect"/>
+                <MenuItem Header="Department" Tag="3" Click="masterSettingMenuSelect" FontSize="12px"/>
+                <MenuItem Header="Designation" FontSize="12px" Tag="4" Click="masterSettingMenuSelect"/>
                 <MenuItem Header="Grade" FontSize="12px"/>
                 <MenuItem Header="Holidays" FontSize="12px"/>
                 <MenuItem Header="Leaves" FontSize="12px"/>
@@ -44,15 +44,15 @@
                 <MenuItem Header="Force Attendance-Batch" FontSize="12px"/>
                 <Separator/>
                 <MenuItem Header="Level Management" FontSize="12px">
-                    <MenuItem Header="Leave Application" HorizontalAlignment="Left" FontSize="12px"/>
-                    <MenuItem Header="Leave Cancellation" HorizontalAlignment="Left" FontSize="12px"/>
-                    <MenuItem Header="Negative Leave Form" HorizontalAlignment="Left" FontSize="12px"/>
+                    <MenuItem Header="Leave Application"  FontSize="12px"/>
+                    <MenuItem Header="Leave Cancellation" FontSize="12px"/>
+                    <MenuItem Header="Negative Leave Form" FontSize="12px"/>
                     <Separator/>
-                    <MenuItem Header="Approve/Grant Monthly Leave" HorizontalAlignment="Left" FontSize="12px"/>
-                    <MenuItem Header="Add Leave" HorizontalAlignment="Left" FontSize="12px"/>
+                    <MenuItem Header="Approve/Grant Monthly Leave"  FontSize="12px"/>
+                    <MenuItem Header="Add Leave"  FontSize="12px"/>
                     <Separator/>
-                    <MenuItem Header="Leave Adjust" HorizontalAlignment="Left" FontSize="12px"/>
-                    <MenuItem Header="Manual Leave Expiry" HorizontalAlignment="Left" FontSize="12px"/>
+                    <MenuItem Header="Leave Adjust"  FontSize="12px"/>
+                    <MenuItem Header="Manual Leave Expiry" FontSize="12px"/>
 
                 </MenuItem>
                 <Separator/>
@@ -72,55 +72,55 @@
 
             </MenuItem>
             <MenuItem Header="Report" FontSize="12" >
-                <MenuItem Header="Monthly Attendance" HorizontalAlignment="Left" FontSize="12px"/>
-                <MenuItem Header="Monthly Travel Report" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Header="Monthly Attendance"  FontSize="12px"/>
+                <MenuItem Header="Monthly Travel Report"  FontSize="12px"/>
                 <Separator/>
-                <MenuItem Header="Monthly Attendance Summary" HorizontalAlignment="Left" FontSize="12px"/>
-                <MenuItem Header="Yearly Attendance Summary" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Header="Monthly Attendance Summary" FontSize="12px"/>
+                <MenuItem Header="Yearly Attendance Summary"  FontSize="12px"/>
                 <Separator/>
-                <MenuItem Header="Dailt Attendance" HorizontalAlignment="Left" FontSize="12px"/>
-                <MenuItem Header="Dailt Absent List" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Header="Dailt Attendance"  FontSize="12px"/>
+                <MenuItem Header="Dailt Absent List"  FontSize="12px"/>
                 <Separator/>
                 <MenuItem Header="Leave Reports" FontSize="12px">
-                    <MenuItem Header="Leave Register" HorizontalAlignment="Left" FontSize="12px"/>
-                    <MenuItem Header="Monthly Leave Detail" HorizontalAlignment="Left" FontSize="12px"/>
-                    <MenuItem Header="Annual Leave Register" HorizontalAlignment="Left" FontSize="12px"/>
+                    <MenuItem Header="Leave Register"  FontSize="12px"/>
+                    <MenuItem Header="Monthly Leave Detail"  FontSize="12px"/>
+                    <MenuItem Header="Annual Leave Register"  FontSize="12px"/>
                 </MenuItem>
                 <Separator/>
-                <MenuItem Header="Department List" HorizontalAlignment="Left" FontSize="12px"/>
-                <MenuItem Header="Employee List" HorizontalAlignment="Left" FontSize="12px"/>
-                <MenuItem Header="Employee Detail" HorizontalAlignment="Left" FontSize="12px"/>
-                <MenuItem Header="Employee List(Gradewise)" HorizontalAlignment="Left" FontSize="12px"/>
-                <MenuItem Header="Official Training Report" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Header="Department List"  FontSize="12px"/>
+                <MenuItem Header="Employee List"  FontSize="12px"/>
+                <MenuItem Header="Employee Detail"  FontSize="12px"/>
+                <MenuItem Header="Employee List(Gradewise)"  FontSize="12px"/>
+                <MenuItem Header="Official Training Report"  FontSize="12px"/>
                 <Separator/>
-                <MenuItem Header="Attendance Summary(Daywise)" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Header="Attendance Summary(Daywise)"  FontSize="12px"/>
                 <MenuItem Header="Hours Worked(Daywise)" FontSize="12px">
-                    <MenuItem Header="Summary Report" HorizontalAlignment="Left" FontSize="12px"/>
-                    <MenuItem Header="Detail Report" HorizontalAlignment="Left" FontSize="12px"/>
+                    <MenuItem Header="Summary Report"  FontSize="12px"/>
+                    <MenuItem Header="Detail Report"  FontSize="12px"/>
 
                 </MenuItem>
                 <Separator/>
-                <MenuItem Header="Monthly Late Report" HorizontalAlignment="Left" FontSize="12px"/>
-                <MenuItem Header="Monthly Office Out/In" HorizontalAlignment="Left" FontSize="12px"/>
-                <MenuItem Header="Monthly Personal Out/In" HorizontalAlignment="Left" FontSize="12px"/>
-                <MenuItem Header="Monthly Band Report" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Header="Monthly Late Report"  FontSize="12px"/>
+                <MenuItem Header="Monthly Office Out/In"  FontSize="12px"/>
+                <MenuItem Header="Monthly Personal Out/In"  FontSize="12px"/>
+                <MenuItem Header="Monthly Band Report"  FontSize="12px"/>
                 <Separator/>
                 <MenuItem Header="Time Logs" FontSize="12px">
-                    <MenuItem Header="TimeLog-Monthly" HorizontalAlignment="Left" FontSize="12px"/>
-                    <MenuItem Header="TimeLog-Daily" HorizontalAlignment="Left" FontSize="12px"/>
+                    <MenuItem Header="TimeLog-Monthly"  FontSize="12px"/>
+                    <MenuItem Header="TimeLog-Daily"  FontSize="12px"/>
 
                 </MenuItem>
             </MenuItem>
             <MenuItem Header="Data Utility" FontSize="12">
-                <MenuItem Header="Backup DataBase" HorizontalAlignment="Left" FontSize="12px"/>
-                <MenuItem Header="Restore DataBase" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Header="Backup DataBase"  FontSize="12px"/>
+                <MenuItem Header="Restore DataBase"  FontSize="12px"/>
                 <Separator/>
-                <MenuItem Header="Download Data" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Header="Download Data"  FontSize="12px"/>
             </MenuItem>
             <MenuItem Header="Device Setting" FontSize="12">
-                <MenuItem Header="Address Setting" HorizontalAlignment="Left" FontSize="12px"/>
-                <MenuItem Header="Personal Map" HorizontalAlignment="Left" FontSize="12px"/>
-                <MenuItem Header="CardId-Employee Map" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Header="Address Setting"  FontSize="12px"/>
+                <MenuItem Header="Personal Map"  FontSize="12px"/>
+                <MenuItem Header="CardId-Employee Map"  FontSize="12px"/>
             </MenuItem>
             <MenuItem Header="Windows" FontSize="12"/>
             <MenuItem Header="Help" FontSize="12"/>
