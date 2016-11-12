@@ -72,7 +72,7 @@
 
             </MenuItem>
             <MenuItem Header="Report" FontSize="12" >
-                <MenuItem Header="Monthly Attendance" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Name="monthlyAttendanceMenuItem" Header="Monthly Attendance" HorizontalAlignment="Left" FontSize="12px" Click="monthlyAttendanceMenuItem_Click"/>
                 <MenuItem Header="Monthly Travel Report" HorizontalAlignment="Left" FontSize="12px"/>
                 <Separator/>
                 <MenuItem Header="Monthly Attendance Summary" HorizontalAlignment="Left" FontSize="12px"/>

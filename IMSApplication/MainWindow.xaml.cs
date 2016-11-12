@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IMSApplication.Report;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -47,6 +48,14 @@ namespace IMS
             branch.Owner = this;
 
             branch.Show();
+        }
+
+        
+        private void monthlyAttendanceMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            MonthlyAttendance monthlyAttendace = new MonthlyAttendance(this);
+            monthlyAttendace.Owner = this;
+            monthlyAttendace.Show();
         }
     }
 }

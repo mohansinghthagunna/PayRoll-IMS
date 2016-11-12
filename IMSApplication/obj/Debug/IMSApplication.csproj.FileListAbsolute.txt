@@ -30,3 +30,11 @@ C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\
 C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\IMSApplication.csproj.GenerateResource.Cache
 C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\IMSApplication.exe
 C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\IMSApplication.pdb
+C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\Branch.baml
+C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\Brands.baml
+C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\CompanyInformation.baml
+C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\Branch.g.cs
+C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\Brands.g.cs
+C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\CompanyInformation.g.cs
+C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\Report\MonthlyAttendance.g.cs
+C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\Report\MonthlyAttendance.baml

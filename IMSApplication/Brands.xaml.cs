@@ -20,7 +20,7 @@ namespace IMS
     public partial class Brands : Window
     {
         private MainWindow _parentWindow;
-        public Brands( MainWindow mainWindow)
+        public Brands(MainWindow mainWindow)
         {
             InitializeComponent();
             _parentWindow = mainWindow;
