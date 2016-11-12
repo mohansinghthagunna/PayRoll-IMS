@@ -13,22 +13,40 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace IMSApplication
+namespace IMS
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+        
         public MainWindow()
         {
             InitializeComponent();
-            Loaded += MainWindow_Loaded;
         }
 
-        private void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        private void companyinformation_Click(object sender, RoutedEventArgs e)
         {
-            string a = "Hello";
+            CompanyInformation ci = new CompanyInformation();
+            ci.Show();
+        }
+
+        private void brand_click(object sender, RoutedEventArgs e)
+        {
+            Brands brand = new Brands(this);
+            brand.Owner = this;
+          //  this.IsEnabled = false;
+            brand.Show();
+            //this.IsEnabled = true;
+        }
+
+        private void branch_click(object sender, RoutedEventArgs e)
+        {
+            Branch branch = new Branch(this);
+            branch.Owner = this;
+
+            branch.Show();
         }
     }
 }

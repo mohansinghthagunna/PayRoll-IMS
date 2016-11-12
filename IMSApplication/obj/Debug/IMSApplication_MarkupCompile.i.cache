@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\
 IMSApplication
 none
 false
 DEBUG;TRACE
-C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\App.xaml
-11151548125
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\App.xaml
+4-1080806595
 
-9-1744558661
+12-425013828
 13738642453
-MainWindow.xaml;
+Branch.xaml;Brands.xaml;CompanyInformation.xaml;MainWindow.xaml;
 
 False
 

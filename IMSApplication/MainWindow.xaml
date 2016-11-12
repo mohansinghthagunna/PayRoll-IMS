@@ -1,155 +1,132 @@
-﻿<Window x:Class="IMSApplication.MainWindow"
+﻿<Window x:Class="IMS.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:IMSApplication"
-        mc:Ignorable="d"
-        Title="IMS - TIME TRAX [KEYSTROKE TRADING HOUSE PVT. LTD.]" Height="350" Width="525">
-    <Grid Background="#FF5B5BF3">
+        Title="IMS" Height="768" Width="1366" WindowState="Maximized" WindowStartupLocation="CenterScreen" MinWidth="600" MinHeight="500" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#FFECECEC">
+    <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
+            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <DockPanel Grid.ColumnSpan="6">
-            <Menu DockPanel.Dock="Top">
-                <MenuItem Header="_File">
-                    <MenuItem Header="New"  />
-                    <MenuItem Header="Open" />
-                    <Separator />
-                    <MenuItem>
-                        <MenuItem.Header>
-                            <DockPanel>
-                                <TextBlock>Step</TextBlock>
-                                <TextBlock Width="10"></TextBlock>
-                                <TextBlock HorizontalAlignment="Right">F2</TextBlock>
-                            </DockPanel>
-                        </MenuItem.Header>
-                    </MenuItem>
-                </MenuItem>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Menu HorizontalAlignment="Left" VerticalAlignment="Top" Width="1360" Background="#FF6AD2F9" >
+            <MenuItem Header="File" FontSize="12">
+                <MenuItem Header="Company Information" FontSize="12" HorizontalAlignment="Left" Click="companyinformation_Click"/>
+                <Separator/>
+                <MenuItem Header="Logout 'Admin'" FontSize="12" HorizontalAlignment="Left"/>
+                <MenuItem Header="Exit" FontSize="12" HorizontalAlignment="Left"/>
 
-                <MenuItem Header="_Master Setting">
-                    <MenuItem Header="New"  />
-                    <MenuItem Header="Open" />
-                    <Separator />
-                    <MenuItem>
-                        <MenuItem.Header>
-                            <DockPanel>
-                                <TextBlock>Step</TextBlock>
-                                <TextBlock Width="10"></TextBlock>
-                                <TextBlock HorizontalAlignment="Right">F2</TextBlock>
-                            </DockPanel>
-                        </MenuItem.Header>
-                    </MenuItem>
-                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Master Setting" FontSize="12">
+                <MenuItem Header="Employee Detail" HorizontalAlignment="Left" FontSize="12px"/>
+                <Separator/>
+                <MenuItem Header="Brand" Click="brand_click" FontSize="12px"/>
+                <MenuItem Header="Branch" FontSize="12px" Click="branch_click"/>
+                <MenuItem Header="Department" FontSize="12px"/>
+                <MenuItem Header="Designation" FontSize="12px"/>
+                <MenuItem Header="Grade" FontSize="12px"/>
+                <MenuItem Header="Holidays" FontSize="12px"/>
+                <MenuItem Header="Leaves" FontSize="12px"/>
+                <Separator/>
+                <MenuItem Header="Week End" FontSize="12px"/>
+                <MenuItem Header="Working Hour" FontSize="12px"/>
+                <Separator/>
+                <MenuItem Header="Sign In Mode Setting" FontSize="12px"/>
+                <MenuItem Header="Change Internal Date/Time" FontSize="12px"/>
+                <Separator/>
+                <MenuItem Header="User Manager" FontSize="12px"/>
+                <MenuItem Header="Change Password" FontSize="12px"/>
+            </MenuItem>
+            <MenuItem Header="Transaction" FontSize="12">
+                <MenuItem Header="Employee Registrtation" FontSize="12"/>
+                <Separator/>
+                <MenuItem Header="Force Attendance" FontSize="12"/>
+                <MenuItem Header="Force Attendance-Batch" FontSize="12px"/>
+                <Separator/>
+                <MenuItem Header="Level Management" FontSize="12px">
+                    <MenuItem Header="Leave Application" HorizontalAlignment="Left" FontSize="12px"/>
+                    <MenuItem Header="Leave Cancellation" HorizontalAlignment="Left" FontSize="12px"/>
+                    <MenuItem Header="Negative Leave Form" HorizontalAlignment="Left" FontSize="12px"/>
+                    <Separator/>
+                    <MenuItem Header="Approve/Grant Monthly Leave" HorizontalAlignment="Left" FontSize="12px"/>
+                    <MenuItem Header="Add Leave" HorizontalAlignment="Left" FontSize="12px"/>
+                    <Separator/>
+                    <MenuItem Header="Leave Adjust" HorizontalAlignment="Left" FontSize="12px"/>
+                    <MenuItem Header="Manual Leave Expiry" HorizontalAlignment="Left" FontSize="12px"/>
 
-                <MenuItem Header="_Transaction">
-                    <MenuItem Header="New"  />
-                    <MenuItem Header="Open" />
-                    <Separator />
-                    <MenuItem>
-                        <MenuItem.Header>
-                            <DockPanel>
-                                <TextBlock>Step</TextBlock>
-                                <TextBlock Width="10"></TextBlock>
-                                <TextBlock HorizontalAlignment="Right">F2</TextBlock>
-                            </DockPanel>
-                        </MenuItem.Header>
-                    </MenuItem>
                 </MenuItem>
+                <Separator/>
+                <MenuItem Header="Travel Entry Slip" FontSize="12px"/>
+                <MenuItem Header="Travel Attendance" FontSize="12px"/>
+                <Separator/>
+                <MenuItem Header="Year Ending" FontSize="12px"/>
+                <Separator/>
+                <MenuItem Header="Out-Branch Attendance" FontSize="12px"/>
+                <Separator/>
+                <MenuItem Header="Forced Weekend/Holidays" FontSize="12px"/>
+                <MenuItem Header="Attendance/Absent Remark" FontSize="12px"/>
+                <MenuItem Header="Office Out/In Remarks" FontSize="12px"/>
+                <MenuItem Header="Personal Out/In Remarks" FontSize="12px"/>
+                <MenuItem Header="Official Training" FontSize="12px"/>
 
-                <MenuItem Header="_Report">
-                    <MenuItem Header="New"  />
-                    <MenuItem Header="Open" />
-                    <Separator />
-                    <MenuItem>
-                        <MenuItem.Header>
-                            <DockPanel>
-                                <TextBlock>Step</TextBlock>
-                                <TextBlock Width="10"></TextBlock>
-                                <TextBlock HorizontalAlignment="Right">F2</TextBlock>
-                            </DockPanel>
-                        </MenuItem.Header>
-                    </MenuItem>
+
+            </MenuItem>
+            <MenuItem Header="Report" FontSize="12" >
+                <MenuItem Header="Monthly Attendance" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Header="Monthly Travel Report" HorizontalAlignment="Left" FontSize="12px"/>
+                <Separator/>
+                <MenuItem Header="Monthly Attendance Summary" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Header="Yearly Attendance Summary" HorizontalAlignment="Left" FontSize="12px"/>
+                <Separator/>
+                <MenuItem Header="Dailt Attendance" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Header="Dailt Absent List" HorizontalAlignment="Left" FontSize="12px"/>
+                <Separator/>
+                <MenuItem Header="Leave Reports" FontSize="12px">
+                    <MenuItem Header="Leave Register" HorizontalAlignment="Left" FontSize="12px"/>
+                    <MenuItem Header="Monthly Leave Detail" HorizontalAlignment="Left" FontSize="12px"/>
+                    <MenuItem Header="Annual Leave Register" HorizontalAlignment="Left" FontSize="12px"/>
                 </MenuItem>
+                <Separator/>
+                <MenuItem Header="Department List" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Header="Employee List" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Header="Employee Detail" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Header="Employee List(Gradewise)" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Header="Official Training Report" HorizontalAlignment="Left" FontSize="12px"/>
+                <Separator/>
+                <MenuItem Header="Attendance Summary(Daywise)" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Header="Hours Worked(Daywise)" FontSize="12px">
+                    <MenuItem Header="Summary Report" HorizontalAlignment="Left" FontSize="12px"/>
+                    <MenuItem Header="Detail Report" HorizontalAlignment="Left" FontSize="12px"/>
 
-                <MenuItem Header="_Data Utility">
-                    <MenuItem Header="New"  />
-                    <MenuItem Header="Open" />
-                    <Separator />
-                    <MenuItem>
-                        <MenuItem.Header>
-                            <DockPanel>
-                                <TextBlock>Step</TextBlock>
-                                <TextBlock Width="10"></TextBlock>
-                                <TextBlock HorizontalAlignment="Right">F2</TextBlock>
-                            </DockPanel>
-                        </MenuItem.Header>
-                    </MenuItem>
                 </MenuItem>
+                <Separator/>
+                <MenuItem Header="Monthly Late Report" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Header="Monthly Office Out/In" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Header="Monthly Personal Out/In" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Header="Monthly Band Report" HorizontalAlignment="Left" FontSize="12px"/>
+                <Separator/>
+                <MenuItem Header="Time Logs" FontSize="12px">
+                    <MenuItem Header="TimeLog-Monthly" HorizontalAlignment="Left" FontSize="12px"/>
+                    <MenuItem Header="TimeLog-Daily" HorizontalAlignment="Left" FontSize="12px"/>
 
-                <MenuItem Header="_Device Settings">
-                    <MenuItem Header="New"  />
-                    <MenuItem Header="Open" />
-                    <Separator />
-                    <MenuItem>
-                        <MenuItem.Header>
-                            <DockPanel>
-                                <TextBlock>Step</TextBlock>
-                                <TextBlock Width="10"></TextBlock>
-                                <TextBlock HorizontalAlignment="Right">F2</TextBlock>
-                            </DockPanel>
-                        </MenuItem.Header>
-                    </MenuItem>
                 </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Data Utility" FontSize="12">
+                <MenuItem Header="Backup DataBase" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Header="Restore DataBase" HorizontalAlignment="Left" FontSize="12px"/>
+                <Separator/>
+                <MenuItem Header="Download Data" HorizontalAlignment="Left" FontSize="12px"/>
+            </MenuItem>
+            <MenuItem Header="Device Setting" FontSize="12">
+                <MenuItem Header="Address Setting" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Header="Personal Map" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Header="CardId-Employee Map" HorizontalAlignment="Left" FontSize="12px"/>
+            </MenuItem>
+            <MenuItem Header="Windows" FontSize="12"/>
+            <MenuItem Header="Help" FontSize="12"/>
 
-                <MenuItem Header="_Windows">
-                    <MenuItem Header="New"  />
-                    <MenuItem Header="Open" />
-                    <Separator />
-                    <MenuItem>
-                        <MenuItem.Header>
-                            <DockPanel>
-                                <TextBlock>Step</TextBlock>
-                                <TextBlock Width="10"></TextBlock>
-                                <TextBlock HorizontalAlignment="Right">F2</TextBlock>
-                            </DockPanel>
-                        </MenuItem.Header>
-                    </MenuItem>
-                </MenuItem>
-
-                <MenuItem Header="_Help">
-                    <MenuItem Header="New"  />
-                    <MenuItem Header="Open" />
-                    <Separator />
-                    <MenuItem>
-                        <MenuItem.Header>
-                            <DockPanel>
-                                <TextBlock>Step</TextBlock>
-                                <TextBlock Width="10"></TextBlock>
-                                <TextBlock HorizontalAlignment="Right">F2</TextBlock>
-                            </DockPanel>
-                        </MenuItem.Header>
-                    </MenuItem>
-                </MenuItem>
-            </Menu>
-            <StackPanel Background="#FF6081C3"></StackPanel>
-        </DockPanel>
-
-        <DockPanel Grid.ColumnSpan="6">
-            <Grid DockPanel.Dock="Bottom" Background="#FFF3F0F0">
-                <TextBlock TextWrapping="Wrap" Text=" KEYSTONE TRADING HOUSE PVT. LTD., 1974, THIRBAM SADAK - 3, BHATBHATENI,,"></TextBlock>
-            </Grid>
-            <TextBlock Visibility="Hidden"></TextBlock>
-        </DockPanel>
+        </Menu>
         
-        <Viewbox Height="40" Width="200" Grid.Column="1" Margin="80.934,140,159,139">
-            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="IMS - Time Trax" VerticalAlignment="Top" FontSize="50"/>
 
-        </Viewbox>
     </Grid>
 </Window>
