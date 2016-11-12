@@ -38,3 +38,7 @@ C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplica
 C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\CompanyInformation.g.cs
 C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\Report\MonthlyAttendance.g.cs
 C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\Report\MonthlyAttendance.baml
+C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\Device Settings\PersonalMap.g.cs
+C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\Device Settings\PersonalMap.baml
+C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\Device Settings\CardIdEmployee.g.cs
+C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\Device Settings\CardIdEmployee.baml

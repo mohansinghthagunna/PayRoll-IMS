@@ -1,4 +1,5 @@
-﻿using IMSApplication.Report;
+﻿using IMSApplication.Device_Settings;
+using IMSApplication.Report;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,7 +22,8 @@ namespace IMS
     /// </summary>
     public partial class MainWindow : Window
     {
-        
+        public object PersonamMap { get; private set; }
+
         public MainWindow()
         {
             InitializeComponent();
@@ -56,6 +58,18 @@ namespace IMS
             MonthlyAttendance monthlyAttendace = new MonthlyAttendance(this);
             monthlyAttendace.Owner = this;
             monthlyAttendace.Show();
+        }
+
+        private void addressSettingsMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            PersonalMap personalMap = new PersonalMap();
+            personalMap.ShowDialog();
+        }
+
+        private void cardIdEmployeeMenuList_Click(object sender, RoutedEventArgs e)
+        {
+            CardIdEmployee cardIdEmployee = new CardIdEmployee();
+            cardIdEmployee.ShowDialog();
         }
     }
 }

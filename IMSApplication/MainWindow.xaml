@@ -118,9 +118,9 @@
                 <MenuItem Header="Download Data" HorizontalAlignment="Left" FontSize="12px"/>
             </MenuItem>
             <MenuItem Header="Device Setting" FontSize="12">
-                <MenuItem Header="Address Setting" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Name="addressSettingsMenuItem" Header="Address Setting" HorizontalAlignment="Left" FontSize="12px" Click="addressSettingsMenuItem_Click"/>
                 <MenuItem Header="Personal Map" HorizontalAlignment="Left" FontSize="12px"/>
-                <MenuItem Header="CardId-Employee Map" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Name="cardIdEmployeeMenuList" Header="CardId-Employee Map" HorizontalAlignment="Left" FontSize="12px" Click="cardIdEmployeeMenuList_Click"/>
             </MenuItem>
             <MenuItem Header="Windows" FontSize="12"/>
             <MenuItem Header="Help" FontSize="12"/>
