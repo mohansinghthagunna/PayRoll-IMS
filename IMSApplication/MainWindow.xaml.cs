@@ -68,6 +68,21 @@ namespace IMS
                     break;
                 case "4":
                     break;
+                case "5":
+                    Grade grade = new Grade(this);
+                    grade.Owner = this;
+                    grade.Show();
+                    break;
+                case "6":
+                    Holiday holiday = new Holiday(this);
+                    holiday.Owner = this;
+                    holiday.Show();
+                    break;
+                case "7":
+                    Leave leave = new Leave(this);
+                    leave.Owner = this;
+                    leave.Show();
+                    break;
             }
         }
 

@@ -33,3 +33,9 @@ C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\
 C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\IMSApplication.csprojResolveAssemblyReference.cache
 C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Master Setting\Bands.baml
 C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Master Setting\Bands.g.cs
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Master Setting\Grade.baml
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Master Setting\Grade.g.cs
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Master Setting\Holiday.baml
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Master Setting\Holiday.g.cs
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Master Setting\Leave.baml
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Master Setting\Leave.g.cs

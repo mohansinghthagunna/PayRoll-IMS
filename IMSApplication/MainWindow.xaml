@@ -1,15 +1,23 @@
 ﻿<Window x:Class="IMS.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="IMS" Height="768" Width="1366" WindowState="Maximized" WindowStartupLocation="CenterScreen" MinWidth="600" MinHeight="500" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#FFECECEC">
+        Title="IMS" Height="768" Width="1366" WindowState="Maximized" WindowStartupLocation="CenterScreen" MinWidth="600" MinHeight="500" HorizontalAlignment="Center" VerticalAlignment="Center" Background="LightBlue">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="1049*"/>
+            <ColumnDefinition Width="282*"/>
+            <ColumnDefinition Width="27*"/>
+            <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="663*"/>
+            <RowDefinition Height="39*"/>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="0*"/>
         </Grid.RowDefinitions>
-        <Menu HorizontalAlignment="Left" VerticalAlignment="Top" Width="1360" Background="#FF6AD2F9" >
+        <Menu HorizontalAlignment="Left" VerticalAlignment="Top" Width="1360" Background="#FF6AD2F9" Margin="0,0,-2,0" Height="18" Grid.ColumnSpan="5" Grid.RowSpan="2" >
             <MenuItem Header="File" FontSize="12">
                 <MenuItem Header="Company Information" FontSize="12"   Tag="0" Click="fileMenuSelect"/>
                 <Separator/>
@@ -24,9 +32,9 @@
                 <MenuItem Header="Branch" FontSize="12px" Tag="2" Click="masterSettingMenuSelect"/>
                 <MenuItem Header="Department" Tag="3" Click="masterSettingMenuSelect" FontSize="12px"/>
                 <MenuItem Header="Designation" FontSize="12px" Tag="4" Click="masterSettingMenuSelect"/>
-                <MenuItem Header="Grade" FontSize="12px"/>
-                <MenuItem Header="Holidays" FontSize="12px"/>
-                <MenuItem Header="Leaves" FontSize="12px"/>
+                <MenuItem Header="Grade" FontSize="12px" Tag="5" Click="masterSettingMenuSelect"/>
+                <MenuItem Header="Holiday" FontSize="12px" Tag="6" Click="masterSettingMenuSelect"/>
+                <MenuItem Header="Leave" FontSize="12px" Tag="7" Click="masterSettingMenuSelect"/>
                 <Separator/>
                 <MenuItem Header="Week End" FontSize="12px"/>
                 <MenuItem Header="Working Hour" FontSize="12px"/>
@@ -38,7 +46,7 @@
                 <MenuItem Header="Change Password" FontSize="12px"/>
             </MenuItem>
             <MenuItem Header="Transaction" FontSize="12">
-                <MenuItem Header="Employee Registrtation" FontSize="12"/>
+                <MenuItem Header="Employee Registration" FontSize="12"/>
                 <Separator/>
                 <MenuItem Header="Force Attendance" FontSize="12"/>
                 <MenuItem Header="Force Attendance-Batch" FontSize="12px"/>
@@ -124,9 +132,9 @@
             </MenuItem>
             <MenuItem Header="Windows" FontSize="12"/>
             <MenuItem Header="Help" FontSize="12"/>
-
         </Menu>
-        
+        <Image Source="time_trax.png" Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" Grid.ColumnSpan="3"/>
+        <Label Content="Developed By Creatu Developers" Grid.Column="2" Grid.Row="2" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Myriad Pro"></Label>
 
     </Grid>
 </Window>
