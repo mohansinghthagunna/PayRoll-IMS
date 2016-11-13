@@ -42,3 +42,11 @@ C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplica
 C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\Device Settings\PersonalMap.baml
 C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\Device Settings\CardIdEmployee.g.cs
 C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\Device Settings\CardIdEmployee.baml
+C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\Data Utility\BackUpDatabase.g.cs
+C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\Data Utility\BackUpDatabase.baml
+C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\Device Settings\AddressSettings.g.cs
+C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\Device Settings\AddressSettings.baml
+C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\Data Utility\DownloadData.g.cs
+C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\Data Utility\DownloadData.baml
+C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\Data Utility\RestoreDatabase.g.cs
+C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\obj\Debug\Data Utility\RestoreDatabase.baml

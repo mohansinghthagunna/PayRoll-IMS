@@ -112,14 +112,14 @@
                 </MenuItem>
             </MenuItem>
             <MenuItem Header="Data Utility" FontSize="12">
-                <MenuItem Header="Backup DataBase" HorizontalAlignment="Left" FontSize="12px"/>
-                <MenuItem Header="Restore DataBase" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Name="backUpDatabaseMenuItem" Header="Backup DataBase" HorizontalAlignment="Left" FontSize="12px" Click="backUpDatabaseMenuItem_Click" />
+                <MenuItem Name="restoreDatabaseMenuItem"  Header="Restore DataBase" HorizontalAlignment="Left" FontSize="12px" Click="restoreDatabaseMenuItem_Click"/>
                 <Separator/>
-                <MenuItem Header="Download Data" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Name="downloadDataMenuItem" Header="Download Data" HorizontalAlignment="Left" FontSize="12px" Click="downloadDataMenuItem_Click"/>
             </MenuItem>
             <MenuItem Header="Device Setting" FontSize="12">
                 <MenuItem Name="addressSettingsMenuItem" Header="Address Setting" HorizontalAlignment="Left" FontSize="12px" Click="addressSettingsMenuItem_Click"/>
-                <MenuItem Header="Personal Map" HorizontalAlignment="Left" FontSize="12px"/>
+                <MenuItem Name="personalMapMenuItem" Header="Personal Map" HorizontalAlignment="Left" FontSize="12px" Click="personalMapMenuItem_Click"/>
                 <MenuItem Name="cardIdEmployeeMenuList" Header="CardId-Employee Map" HorizontalAlignment="Left" FontSize="12px" Click="cardIdEmployeeMenuList_Click"/>
             </MenuItem>
             <MenuItem Header="Windows" FontSize="12"/>

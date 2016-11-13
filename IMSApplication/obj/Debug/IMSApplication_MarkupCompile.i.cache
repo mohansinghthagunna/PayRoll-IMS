@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\ITH-143\Documents\Visual Studio 2015\Projects\IMSApplication\IMSApplication\App.xaml
-7-600699056
+11-15109288
 
-15-1996629540
+19929557534
 13738642453
-Branch.xaml;Brands.xaml;CompanyInformation.xaml;Device Settings\CardIdEmployee.xaml;Device Settings\PersonalMap.xaml;MainWindow.xaml;Report\MonthlyAttendance.xaml;
+Branch.xaml;Brands.xaml;CompanyInformation.xaml;Data Utility\BackUpDatabase.xaml;Data Utility\DownloadData.xaml;Data Utility\RestoreDatabase.xaml;Device Settings\AddressSettings.xaml;Device Settings\CardIdEmployee.xaml;Device Settings\PersonalMap.xaml;MainWindow.xaml;Report\MonthlyAttendance.xaml;
 
 False
 

@@ -55,6 +55,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Data Utility\BackUpDatabase.xaml.cs">
+      <DependentUpon>BackUpDatabase.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Data Utility\DownloadData.xaml.cs">
+      <DependentUpon>DownloadData.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Data Utility\RestoreDatabase.xaml.cs">
+      <DependentUpon>RestoreDatabase.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Device Settings\AddressSettings.xaml.cs">
+      <DependentUpon>AddressSettings.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Device Settings\CardIdEmployee.xaml.cs">
       <DependentUpon>CardIdEmployee.xaml</DependentUpon>
     </Compile>
@@ -75,6 +87,22 @@
     <Page Include="CompanyInformation.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Data Utility\BackUpDatabase.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Data Utility\DownloadData.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Data Utility\RestoreDatabase.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Device Settings\AddressSettings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Device Settings\CardIdEmployee.xaml">
       <SubType>Designer</SubType>

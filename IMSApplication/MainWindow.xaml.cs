@@ -1,4 +1,5 @@
-﻿using IMSApplication.Device_Settings;
+﻿using IMSApplication.Data_Utility;
+using IMSApplication.Device_Settings;
 using IMSApplication.Report;
 using System;
 using System.Collections.Generic;
@@ -57,19 +58,43 @@ namespace IMS
         {
             MonthlyAttendance monthlyAttendace = new MonthlyAttendance(this);
             monthlyAttendace.Owner = this;
-            monthlyAttendace.Show();
+            monthlyAttendace.ShowDialog();
         }
 
         private void addressSettingsMenuItem_Click(object sender, RoutedEventArgs e)
         {
-            PersonalMap personalMap = new PersonalMap();
-            personalMap.ShowDialog();
+            AddressSettings addressSettings = new AddressSettings();
+            addressSettings.ShowDialog();
         }
 
         private void cardIdEmployeeMenuList_Click(object sender, RoutedEventArgs e)
         {
             CardIdEmployee cardIdEmployee = new CardIdEmployee();
             cardIdEmployee.ShowDialog();
+        }
+
+        private void backUpDatabaseMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            BackUpDatabase backUpDatabase = new BackUpDatabase();
+            backUpDatabase.ShowDialog();
+        }
+
+        private void personalMapMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            PersonalMap personalMap = new PersonalMap();
+            personalMap.ShowDialog();
+        }
+
+        private void downloadDataMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            DownloadData downloadData = new DownloadData();
+            downloadData.ShowDialog();
+        }
+
+        private void restoreDatabaseMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            RestoreDatabase restoreDatabase = new RestoreDatabase();
+            restoreDatabase.ShowDialog();
         }
     }
 }
