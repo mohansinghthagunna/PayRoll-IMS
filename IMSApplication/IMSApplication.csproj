@@ -57,6 +57,42 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Report\Attendance Summary %28Daywise%29.xaml.cs">
+      <DependentUpon>Attendance Summary %28Daywise%29.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Employee Daily Absent Report.xaml.cs">
+      <DependentUpon>Employee Daily Absent Report.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Employee Daily Attendance Report.xaml.cs">
+      <DependentUpon>Employee Daily Attendance Report.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Employee List Gradewise.xaml.cs">
+      <DependentUpon>Employee List Gradewise.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Employee List.xaml.cs">
+      <DependentUpon>Employee List.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Hours Worked%28Daywise%29\Hours Worked Detail%28Daywise%29.xaml.cs">
+      <DependentUpon>Hours Worked Detail%28Daywise%29.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Hours Worked%28Daywise%29\Hours Worked Summary%28Daywise%29.xaml.cs">
+      <DependentUpon>Hours Worked Summary%28Daywise%29.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Leave Report\Annual Leave Register.xaml.cs">
+      <DependentUpon>Annual Leave Register.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Leave Report\Leave Register.xaml.cs">
+      <DependentUpon>Leave Register.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Leave Report\Monthly Leave Detail.xaml.cs">
+      <DependentUpon>Monthly Leave Detail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Monthly Attendance Summary.xaml.cs">
+      <DependentUpon>Monthly Attendance Summary.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Monthly Travel Report.xaml.cs">
+      <DependentUpon>Monthly Travel Report.xaml</DependentUpon>
+    </Compile>
     <Page Include="Master Setting\Branch.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -90,7 +126,7 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="File\Employee Detail.xaml">
+    <Page Include="Master Setting\Employee Detail.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -106,9 +142,57 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Report\Attendance Summary %28Daywise%29.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Report\Employee Daily Absent Report.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Report\Employee Daily Attendance Report.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Report\Employee List Gradewise.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Report\Employee List.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Report\Hours Worked%28Daywise%29\Hours Worked Detail%28Daywise%29.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Report\Hours Worked%28Daywise%29\Hours Worked Summary%28Daywise%29.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Report\Leave Report\Annual Leave Register.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Report\Leave Report\Leave Register.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Report\Leave Report\Monthly Leave Detail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Report\Monthly Attendance Summary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Report\Monthly Travel Report.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="File\Employee Detail.xaml.cs">
+    <Compile Include="Master Setting\Employee Detail.xaml.cs">
       <DependentUpon>Employee Detail.xaml</DependentUpon>
     </Compile>
     <Compile Include="Master Setting\Grade.xaml.cs">

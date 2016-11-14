@@ -39,3 +39,27 @@ C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\
 C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Master Setting\Holiday.g.cs
 C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Master Setting\Leave.baml
 C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Master Setting\Leave.g.cs
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Report\Monthly Travel Report.baml
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Report\Monthly Travel Report.g.cs
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Report\Employee List Gradewise.baml
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Report\Employee List Gradewise.g.cs
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Report\Monthly Attendance Summary.baml
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Report\Monthly Attendance Summary.g.cs
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Report\Employee Daily Absent Report.baml
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Report\Employee Daily Absent Report.g.cs
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Report\Employee Daily Attendance Report.baml
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Report\Employee Daily Attendance Report.g.cs
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Report\Leave Report\Leave Register.baml
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Report\Leave Report\Leave Register.g.cs
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Report\Leave Report\Monthly Leave Detail.baml
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Report\Leave Report\Monthly Leave Detail.g.cs
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Report\Leave Report\Annual Leave Register.baml
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Report\Leave Report\Annual Leave Register.g.cs
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Report\Employee List.baml
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Report\Employee List.g.cs
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Report\Attendance Summary (Daywise).baml
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Report\Attendance Summary (Daywise).g.cs
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Report\Hours Worked(Daywise)\Hours Worked Summary(Daywise).baml
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Report\Hours Worked(Daywise)\Hours Worked Summary(Daywise).g.cs
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Report\Hours Worked(Daywise)\Hours Worked Detail(Daywise).baml
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Report\Hours Worked(Daywise)\Hours Worked Detail(Daywise).g.cs
