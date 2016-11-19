@@ -1,0 +1,177 @@
+﻿<Window x:Class="IMSApplication.Transaction.Leave_Application"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Leave Application" Height="500" Width="800" MinHeight="600" MinWidth="800" ShowInTaskbar="False" WindowStartupLocation="CenterScreen" Background="#FFE5E5E5">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="387*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="36*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="261*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="230*"/>
+            <RowDefinition Height="13*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="1" Grid.RowSpan="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0*"/>
+                <RowDefinition/>
+                <RowDefinition Height="0*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0*"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="0*"/>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="1" Grid.ColumnSpan="1" Grid.Row="1" Grid.RowSpan="1" BorderBrush="Black" BorderThickness="1"></Border>
+            <Menu Grid.RowSpan="2" Grid.ColumnSpan="2">
+                <MenuItem Header="New" Icon="" Height="36" Width="69"></MenuItem>
+                <MenuItem Header="Save" Icon=""></MenuItem>
+                <MenuItem Header="Undo" Icon=""></MenuItem>
+            </Menu>
+        </Grid>
+
+
+
+        <Grid Grid.Column="2" Grid.Row="3" Grid.RowSpan="1" Grid.ColumnSpan="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="12*"/>
+                <ColumnDefinition Width="109*"/>
+                <ColumnDefinition Width="7*"/>
+                <ColumnDefinition Width="143*"/>
+                <ColumnDefinition Width="111*"/>
+                <ColumnDefinition Width="8*"/>
+                <ColumnDefinition Width="68*"/>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="36*"/>
+                <ColumnDefinition Width="11*"/>
+                <ColumnDefinition Width="135*"/>
+                <ColumnDefinition Width="130*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="11*"/>
+                <RowDefinition Height="32*"/>
+                <RowDefinition Height="9*"/>
+                <RowDefinition Height="33*"/>
+                <RowDefinition Height="8*"/>
+                <RowDefinition Height="33*"/>
+                <RowDefinition Height="7*"/>
+                <RowDefinition Height="31*"/>
+                <RowDefinition Height="9*"/>
+                <RowDefinition Height="31*"/>
+                <RowDefinition Height="7*"/>
+                <RowDefinition Height="31*"/>
+                <RowDefinition Height="19*"/>
+            </Grid.RowDefinitions>
+            <Border Grid.Column="0" Grid.ColumnSpan="12" Grid.Row="0" Grid.RowSpan="13" BorderBrush="Black" BorderThickness="1"></Border>
+
+            <Label Grid.Column="1" Grid.ColumnSpan="1" Grid.Row="1" Grid.RowSpan="1" VerticalAlignment="Center" HorizontalAlignment="Left"  Content="Leave Application"  ></Label>
+            <Label Grid.Column="1" Grid.ColumnSpan="1" Grid.Row="3" Grid.RowSpan="1"  VerticalAlignment="Center" HorizontalAlignment="Left" Content="Leave Type"  ></Label>
+            <Label Grid.Column="1" Grid.ColumnSpan="1" Grid.Row="5" Grid.RowSpan="1"  VerticalAlignment="Center" HorizontalAlignment="Left" Content="Leave Start Date" ></Label>
+            <Label Grid.Column="1" Grid.ColumnSpan="1" Grid.Row="9" Grid.RowSpan="1"  VerticalAlignment="Center" HorizontalAlignment="Left" Content="Remarks"></Label>
+            <Label Grid.Column="1" Grid.ColumnSpan="1" Grid.Row="11" Grid.RowSpan="1"  VerticalAlignment="Center" HorizontalAlignment="Left" Content="Approved By" ></Label>
+            <Label Grid.Column="6" Grid.ColumnSpan="3" Grid.Row="5" Grid.RowSpan="1"  VerticalAlignment="Center" HorizontalAlignment="Right" Content="Leave End Date"></Label>
+
+
+
+            <ComboBox Grid.Column="3" Grid.Row="1" Grid.RowSpan="1" Grid.ColumnSpan="2" VerticalAlignment="Center" />
+            <ComboBox Grid.Column="3" Grid.Row="3" Grid.RowSpan="1" Grid.ColumnSpan="2" VerticalAlignment="Center" />
+            <CheckBox Grid.Column="6" Grid.ColumnSpan="2" Grid.Row="3" Grid.RowSpan="1" VerticalAlignment="Center" Content="Half Day"></CheckBox>
+            <TextBox Grid.Column="6" Grid.ColumnSpan="1" Grid.Row="1" Grid.RowSpan="1" VerticalAlignment="Center" ></TextBox>
+            <Button Grid.Column="8" Grid.ColumnSpan="1" Grid.Row="1" Grid.RowSpan="1" VerticalAlignment="Center" Content="SE"  ></Button>
+
+            <DatePicker Grid.Column="3" Grid.ColumnSpan="1" Grid.Row="5" Grid.RowSpan="1" VerticalAlignment="Center"></DatePicker>
+            <DatePicker Grid.Column="10" Grid.ColumnSpan="1" Grid.Row="5" Grid.RowSpan="1" VerticalAlignment="Center"></DatePicker>
+
+            <Label Grid.Column="3" Grid.ColumnSpan="1" Grid.Row="7" Grid.RowSpan="1"  VerticalAlignment="Center" HorizontalAlignment="Center" Content="Remaining" ></Label>
+            <Label Grid.Column="10" Grid.ColumnSpan="1" Grid.Row="7" Grid.RowSpan="1"  VerticalAlignment="Center" HorizontalAlignment="Center" Content="Remaining" ></Label>
+
+            <TextBox Grid.Column="3" Grid.ColumnSpan="4" Grid.Row="9" Grid.RowSpan="1"  VerticalAlignment="Center"></TextBox>
+
+            <ComboBox Grid.Column="3" Grid.ColumnSpan="2" Grid.Row="11" Grid.RowSpan="1"  VerticalAlignment="Center"></ComboBox>
+            <TextBox Grid.Column="6" Grid.ColumnSpan="1" Grid.Row="11" Grid.RowSpan="1" VerticalAlignment="Center"  ></TextBox>
+            <Button Grid.Column="8" Grid.ColumnSpan="1" Grid.Row="11" Grid.RowSpan="1" VerticalAlignment="Center" Content="SE"  ></Button>
+
+
+        </Grid>
+
+
+
+        <Grid Grid.Column="2" Grid.Row="5" Grid.RowSpan="1" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="109*"/>
+                <RowDefinition Height="3*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="306*"/>
+                <ColumnDefinition Width="6*"/>
+                <ColumnDefinition Width="449*"/>
+                <ColumnDefinition Width="8*"/>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="0" Grid.RowSpan="3" BorderBrush="Black"  BorderThickness="1"></Border>
+            <GroupBox Grid.Column="1" Grid.ColumnSpan="1" Grid.Row="0" Grid.RowSpan="2">
+                <GroupBox.Header>
+                    <Label Content="Detail On Selected Leave Type"></Label>
+                </GroupBox.Header>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="7*"/>
+                        <ColumnDefinition Width="88*"/>
+                        <ColumnDefinition Width="11*"/>
+                        <ColumnDefinition Width="103*"/>
+                        <ColumnDefinition Width="7*"/>
+                        <ColumnDefinition Width="60*"/>
+                        <ColumnDefinition Width="18*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="8*"/>
+                        <RowDefinition Height="33*"/>
+                        <RowDefinition Height="10*"/>
+                        <RowDefinition Height="39*"/>
+                        <RowDefinition Height="12*"/>
+                        <RowDefinition Height="34*"/>
+                        <RowDefinition Height="10*"/>
+                        <RowDefinition Height="35*"/>
+                        <RowDefinition Height="9*"/>
+                    </Grid.RowDefinitions>
+                    <Label Grid.Column="1" Grid.ColumnSpan="1" Grid.Row="1" Grid.RowSpan="1" Content="Entitled:" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="Blue" ></Label>
+                    <Label Grid.Column="1" Grid.ColumnSpan="1" Grid.Row="3" Grid.RowSpan="1" Content="Taken:" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="Blue" ></Label>
+                    <Label Grid.Column="1" Grid.ColumnSpan="1" Grid.Row="5" Grid.RowSpan="1" Content="Available:" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="Blue" ></Label>
+                    <Label Grid.Column="1" Grid.ColumnSpan="1" Grid.Row="7" Grid.RowSpan="1" Content="Asked For:" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="Blue" ></Label>
+
+                    <TextBox Grid.Column="3" Grid.ColumnSpan="1" Grid.Row="1" Grid.RowSpan="1" VerticalAlignment="Center"></TextBox>
+                    <TextBox Grid.Column="3" Grid.ColumnSpan="1" Grid.Row="3" Grid.RowSpan="1" VerticalAlignment="Center"></TextBox>
+                    <TextBox Grid.Column="3" Grid.ColumnSpan="1" Grid.Row="5" Grid.RowSpan="1" VerticalAlignment="Center"></TextBox>
+                    <TextBox Grid.Column="3" Grid.ColumnSpan="1" Grid.Row="7" Grid.RowSpan="1" VerticalAlignment="Center"></TextBox>
+
+                    <Label Grid.Column="5" Grid.ColumnSpan="1" Grid.Row="1" Grid.RowSpan="1" Content="Days" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightBlue" ></Label>
+                    <Label Grid.Column="5" Grid.ColumnSpan="1" Grid.Row="3" Grid.RowSpan="1" Content="Days" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightBlue"></Label>
+                    <Label Grid.Column="5" Grid.ColumnSpan="1" Grid.Row="5" Grid.RowSpan="1" Content="Days" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightBlue"></Label>
+                    <Label Grid.Column="5" Grid.ColumnSpan="1" Grid.Row="7" Grid.RowSpan="1" Content="Days" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightBlue"></Label>
+
+                </Grid>
+            </GroupBox>
+
+            <DataGrid Grid.Column="3" Grid.ColumnSpan="2" Grid.Row="1" Grid.RowSpan="1" >
+                <DataGrid.Columns>
+                    <DataGridCheckBoxColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Nos" MinWidth="100"/>
+                    <DataGridCheckBoxColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Date" MinWidth="100"/>
+                    <DataGridCheckBoxColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="BS. Date" MinWidth="100"/>
+                    <DataGridCheckBoxColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Leave Type" MinWidth="100"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+
+
+    </Grid>
+</Window>
+

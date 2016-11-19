@@ -55,7 +55,11 @@
         <ComboBox Grid.Column="13" Grid.Row="3" Grid.RowSpan="2" VerticalAlignment="Center"  />
 
 
-        <GroupBox Header="All Department" Grid.Column="2" Grid.Row="6" Grid.RowSpan="4" Grid.ColumnSpan="11" />
+        <GroupBox Grid.Column="2" Grid.Row="6" Grid.RowSpan="4" Grid.ColumnSpan="11" >
+            <GroupBox.Header>
+                <CheckBox Content="All Departments"></CheckBox>
+            </GroupBox.Header>
+        </GroupBox>
         <Label Grid.Column="3" Grid.ColumnSpan="3" Grid.Row="7" Grid.RowSpan="2" Content="Department" VerticalAlignment="Center" HorizontalAlignment="Left" ></Label>
         <ComboBox Grid.Column="7" Grid.ColumnSpan="5" Grid.Row="7" Grid.RowSpan="2" VerticalAlignment="Center"  ></ComboBox>
 

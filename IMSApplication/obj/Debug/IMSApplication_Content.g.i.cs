@@ -8,7 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("models/imsdatacontext.context.tt")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("models/imsdatacontext.tt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/excel.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/ims_icons.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/play.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/preview.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/print.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/settings.png")]
 
 

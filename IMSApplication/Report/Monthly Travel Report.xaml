@@ -69,26 +69,39 @@
             <ComboBoxItem Content="December"></ComboBoxItem>
         </ComboBox>
 
-        <Label Grid.Column="10" Grid.Row="3" Grid.ColumnSpan="1" Grid.RowSpan="1" Content="Remaining Year Picker" VerticalAlignment="Center" ></Label>
+        <Label Content="Remaining" Grid.Column="10" Grid.Row="3" Grid.ColumnSpan="1" Grid.RowSpan="1"  VerticalAlignment="Center" ></Label>
 
-        <Button Grid.Column="12" Grid.Row="3" Grid.ColumnSpan="1" Grid.RowSpan="1" Content="Load">
+        <Button Grid.Column="12" Grid.Row="3" Grid.ColumnSpan="1" Grid.RowSpan="1" >
+            <Grid>
+                <Image Source="/IMSApplication;component/Images/play.png"></Image>
+            </Grid>
             <Button.Effect>
-                <DropShadowEffect/>
+                <DropShadowEffect  Color="#FFD1D1D1"/>
             </Button.Effect>
         </Button>
-        <Button Grid.Column="14" Grid.Row="3" Grid.ColumnSpan="1" Grid.RowSpan="1" Content="Print">
-            <Button.Effect>
-                <DropShadowEffect/>
+        <Button Grid.Column="14" Grid.Row="3" Grid.ColumnSpan="1" Grid.RowSpan="1" >
+            <Grid  >
+                <Image Source="/IMSApplication;component/Images/print.png" Grid.RowSpan="1"></Image>
+            </Grid>
+            <Button.Effect >
+                <DropShadowEffect Color="#FFD1D1D1"/>
             </Button.Effect>
         </Button>
-        <Button Grid.Column="16" Grid.Row="3" Grid.ColumnSpan="1" Grid.RowSpan="1" Content="Preview">
+        <Button Grid.Column="16" Grid.Row="3" Grid.ColumnSpan="1" Grid.RowSpan="1">
             <Button.Effect>
-                <DropShadowEffect/>
+                <DropShadowEffect Color="#FFD1D1D1"/>
             </Button.Effect>
+            <Grid>
+                <Image Source="/IMSApplication;component/Images/preview.png"></Image>
+            </Grid>
         </Button>
-        <Button Grid.Column="18" Grid.Row="3" Grid.ColumnSpan="1" Grid.RowSpan="1" Content="Excel">
+        <Button Grid.Column="18" Grid.Row="3" Grid.ColumnSpan="1" Grid.RowSpan="1" >
+            <Grid>
+                <Image Source="/IMSApplication;component/Images/excel.png"></Image>
+            </Grid>
+
             <Button.Effect>
-                <DropShadowEffect/>
+                <DropShadowEffect Color="#FFD1D1D1"/>
             </Button.Effect>
         </Button>
         <Button Grid.Column="20" Grid.Row="3" Grid.ColumnSpan="1" Grid.RowSpan="1" Content="Undo">

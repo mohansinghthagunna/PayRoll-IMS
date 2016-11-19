@@ -46,7 +46,7 @@
         <Border Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="21" Grid.RowSpan="8" BorderBrush="Black" BorderThickness="1"></Border>
 
         <Label Grid.Column="2" Grid.Row="3" Grid.ColumnSpan="1" Grid.RowSpan="2" Content="Print Date" VerticalAlignment="Center" HorizontalAlignment="Right" ></Label>
-        <Label Grid.Column="2" Grid.Row="6" Grid.ColumnSpan="1" Grid.RowSpan="2" Content="Grate Type" VerticalAlignment="Center" HorizontalAlignment="Right" ></Label>
+        <Label Grid.Column="2" Grid.Row="6" Grid.ColumnSpan="1" Grid.RowSpan="2" Content="Grade Type" VerticalAlignment="Center" HorizontalAlignment="Right" ></Label>
 
         <DatePicker Grid.Column="4" Grid.Row="3" Grid.ColumnSpan="1" Grid.RowSpan="2" VerticalAlignment="Center"></DatePicker>
         <ComboBox Grid.Column="4" Grid.Row="6" Grid.ColumnSpan="1" Grid.RowSpan="2" VerticalAlignment="Center"></ComboBox>
