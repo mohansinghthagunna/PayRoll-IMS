@@ -1,0 +1,192 @@
+﻿<Window x:Class="IMSApplication.Transaction.Add_Leave"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        
+        Title="Add Leave" Height="500" Width="800" MinHeight="500" MinWidth="800" ShowInTaskbar="False" WindowStartupLocation="CenterScreen" Background="#FFE5E5E5">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="387*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="147*"/>
+            <RowDefinition Height="11*"/>
+            <RowDefinition Height="255*"/>
+            <RowDefinition Height="11*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="1" Grid.RowSpan="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0*"/>
+                <RowDefinition/>
+                <RowDefinition Height="0*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0*"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="0*"/>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="1" Grid.ColumnSpan="1" Grid.Row="1" Grid.RowSpan="1" BorderBrush="Black" BorderThickness="1"></Border>
+            <Menu Grid.RowSpan="2" Grid.ColumnSpan="2">
+                <MenuItem Header="New" Icon="" Height="36" Width="69"></MenuItem>
+                <MenuItem Header="Save" Icon=""></MenuItem>
+                <MenuItem Header="Undo" Icon=""></MenuItem>
+            </Menu>
+        </Grid>
+
+
+
+        <Grid Grid.Column="2" Grid.Row="3" Grid.RowSpan="1" Grid.ColumnSpan="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="7*"/>
+                <RowDefinition Height="50*"/>
+                <RowDefinition Height="9*"/>
+                <RowDefinition Height="75*"/>
+                <RowDefinition Height="6*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="8*"/>
+                <ColumnDefinition Width="210*"/>
+                <ColumnDefinition Width="7*"/>
+                <ColumnDefinition Width="459*"/>
+                <ColumnDefinition Width="7*"/>
+                <ColumnDefinition Width="75*"/>
+                <ColumnDefinition Width="8*"/>
+            </Grid.ColumnDefinitions>
+
+            <GroupBox Grid.Column="1" Grid.ColumnSpan="1" Grid.Row="1" Grid.RowSpan="1" Header="Based On">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="6*"/>
+                        <ColumnDefinition Width="93*"/>
+                        <ColumnDefinition Width="92*"/>
+                        <ColumnDefinition Width="7*"/>
+                    </Grid.ColumnDefinitions>
+                    <RadioButton Grid.Column="1" Grid.ColumnSpan="1" Grid.Row="0" Grid.RowSpan="1" VerticalAlignment="Center" HorizontalAlignment="Center" Content="Date"></RadioButton>
+                    <RadioButton Grid.Column="2" Grid.ColumnSpan="1" Grid.Row="0" Grid.RowSpan="1" VerticalAlignment="Center" HorizontalAlignment="Center" Content="MITI"></RadioButton>
+
+                </Grid>
+            </GroupBox>
+
+            <Grid Grid.Column="1" Grid.Row="3" Grid.RowSpan="1" Grid.ColumnSpan="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="6*"/>
+                    <RowDefinition Height="31*"/>
+                    <RowDefinition Height="8*"/>
+                    <RowDefinition Height="31*"/>
+                    <RowDefinition Height="8*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*"/>
+                    <ColumnDefinition Width="61*"/>
+                    <ColumnDefinition Width="8*"/>
+                    <ColumnDefinition Width="124*"/>
+                    <ColumnDefinition Width="10*"/>
+                </Grid.ColumnDefinitions>
+                <Border Grid.Column="0" Grid.Row="0" Grid.RowSpan="5" Grid.ColumnSpan="5" BorderBrush="Black" BorderThickness="1"></Border>
+
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="1" Grid.ColumnSpan="1" Content="Month" VerticalAlignment="Center" HorizontalAlignment="Right"></Label>
+                <Label Grid.Column="1" Grid.Row="3" Grid.RowSpan="1" Grid.ColumnSpan="1" Content="Year" VerticalAlignment="Center" HorizontalAlignment="Right"></Label>
+
+                <ComboBox Grid.Column="3" Grid.Row="1" Grid.RowSpan="1" Grid.ColumnSpan="1" VerticalAlignment="Center"></ComboBox>
+                <Label Grid.Column="3" Grid.Row="3" Grid.RowSpan="1" Grid.ColumnSpan="1" Content="Remaining" VerticalAlignment="Center"></Label>
+
+
+
+            </Grid>
+
+
+            <Grid Grid.Column="3" Grid.Row="1" Grid.RowSpan="3" Grid.ColumnSpan="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="8*"/>
+                    <ColumnDefinition Width="98*"/>
+                    <ColumnDefinition Width="4*"/>
+                    <ColumnDefinition Width="147*"/>
+                    <ColumnDefinition Width="64*"/>
+                    <ColumnDefinition Width="10*"/>
+                    <ColumnDefinition Width="8*"/>
+                    <ColumnDefinition Width="14*"/>
+                    <ColumnDefinition Width="69*"/>
+                    <ColumnDefinition Width="5*"/>
+                    <ColumnDefinition Width="24*"/>
+                    <ColumnDefinition Width="8*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="7*"/>
+                    <RowDefinition Height="26*"/>
+                    <RowDefinition Height="5*"/>
+                    <RowDefinition Height="24*"/>
+                    <RowDefinition Height="8*"/>
+                    <RowDefinition Height="26*"/>
+                    <RowDefinition Height="7*"/>
+                    <RowDefinition Height="26*"/>
+                    <RowDefinition Height="5*"/>
+                </Grid.RowDefinitions>
+                <Border Grid.Column="0" Grid.ColumnSpan="12" Grid.Row="0" Grid.RowSpan="9" BorderBrush="Black" BorderThickness="1"></Border>
+
+                <Label Grid.Column="1" Grid.ColumnSpan="1" Grid.Row="1" Grid.RowSpan="1" Content="Employee Name" VerticalAlignment="Center"  HorizontalAlignment="Right" ></Label>
+                <Label Grid.Column="1" Grid.ColumnSpan="1" Grid.Row="3" Grid.RowSpan="1" Content="Leave Name" VerticalAlignment="Center"  HorizontalAlignment="Right" ></Label>
+                <Label Grid.Column="1" Grid.ColumnSpan="1" Grid.Row="5" Grid.RowSpan="1" Content="Approved By" VerticalAlignment="Center"  HorizontalAlignment="Right" ></Label>
+                <Label Grid.Column="1" Grid.ColumnSpan="1" Grid.Row="7" Grid.RowSpan="1" Content="Remarks" VerticalAlignment="Center"  HorizontalAlignment="Right" ></Label>
+
+                <ComboBox Grid.Column="3" Grid.ColumnSpan="2" Grid.Row="1" Grid.RowSpan="1" VerticalAlignment="Center" ></ComboBox>
+                <Label Grid.Column="6" Grid.ColumnSpan="2" Grid.Row="1" Grid.RowSpan="1" Content="ID" VerticalAlignment="Center" HorizontalAlignment="Left" ></Label>
+                <TextBox Grid.Column="8" Grid.ColumnSpan="1" Grid.Row="1" Grid.RowSpan="1" VerticalAlignment="Center" ></TextBox>
+                <Button Grid.Column="10" Grid.ColumnSpan="1" Grid.Row="1" Grid.RowSpan="1" VerticalAlignment="Center" Content="SE" ></Button>
+
+                <ComboBox Grid.Column="3" Grid.ColumnSpan="1" Grid.Row="3" Grid.RowSpan="1" VerticalAlignment="Center" Height="22" ></ComboBox>
+                <Label Grid.Column="4" Grid.ColumnSpan="2" Grid.Row="3" Grid.RowSpan="1" VerticalAlignment="Center" HorizontalAlignment="Left" Content="No. of Days" ></Label>
+                <TextBox Grid.Column="7" Grid.ColumnSpan="2" Grid.Row="3" Grid.RowSpan="1" VerticalAlignment="Center"></TextBox>
+
+
+                <ComboBox Grid.Column="3" Grid.ColumnSpan="2" Grid.Row="5" Grid.RowSpan="1" VerticalAlignment="Center" Height="22" ></ComboBox>
+                <Label Grid.Column="6" Grid.ColumnSpan="2" Grid.Row="5" Grid.RowSpan="1" Content="ID" VerticalAlignment="Center" HorizontalAlignment="Left"></Label>
+                <TextBox Grid.Column="8" Grid.ColumnSpan="1" Grid.Row="5" Grid.RowSpan="1" VerticalAlignment="Center" ></TextBox>
+                <Button Grid.Column="10" Grid.ColumnSpan="1" Grid.Row="5" Grid.RowSpan="1" VerticalAlignment="Center" Content="SE"></Button>
+                <TextBox Grid.Column="3" Grid.ColumnSpan="8" Grid.Row="7" Grid.RowSpan="1" VerticalAlignment="Center"></TextBox>
+
+
+
+
+
+            </Grid>
+
+            <Button Grid.Column="5" Grid.ColumnSpan="1" Grid.Row="3" Grid.RowSpan="1" Content="Add">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+            </Button>
+        </Grid>
+
+
+
+        <Grid Grid.Column="2" Grid.Row="5" Grid.RowSpan="1" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="109*"/>
+                <RowDefinition Height="3*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="380*"/>
+                <ColumnDefinition Width="4*"/>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="0" Grid.RowSpan="3" BorderBrush="Black"  BorderThickness="1"></Border>
+
+
+            <DataGrid Grid.Column="1" Grid.ColumnSpan="1" Grid.Row="1" Grid.RowSpan="1" >
+                <DataGrid.Columns>
+
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+
+
+    </Grid>
+</Window>
+
