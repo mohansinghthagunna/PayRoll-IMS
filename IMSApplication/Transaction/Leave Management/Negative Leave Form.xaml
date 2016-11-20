@@ -1,0 +1,81 @@
+﻿<Window x:Class="IMSApplication.Transaction.Negative_Leave_Form"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Negative Form" Height="350" Width="500" ResizeMode="NoResize" Background="#FFE5E5E5" ShowInTaskbar="False">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="259*"/>
+            <RowDefinition Height="7*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Column="0" Grid.Row="1" Grid.RowSpan="1">
+            <Menu Grid.Column="0" Grid.ColumnSpan="1" Grid.Row="0" Grid.RowSpan="1">
+                <MenuItem Header="New" Icon="" Height="40" Width="62"></MenuItem>
+                <MenuItem Header="Save"  Icon=""></MenuItem>
+                <MenuItem Header="Undo" Icon=""></MenuItem>
+            </Menu>
+        </Grid>
+
+        <Grid Grid.Column="0" Grid.ColumnSpan="1" Grid.Row="3" Grid.RowSpan="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="7*"/>
+                <RowDefinition Height="36*"/>
+                <RowDefinition Height="8*"/>
+                <RowDefinition Height="38*"/>
+                <RowDefinition Height="9*"/>
+                <RowDefinition Height="38*"/>
+                <RowDefinition Height="9*"/>
+                <RowDefinition Height="41*"/>
+                <RowDefinition Height="9*"/>
+                <RowDefinition Height="37*"/>
+                <RowDefinition Height="21*"/>
+                <RowDefinition Height="8*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="16*"/>
+                <ColumnDefinition Width="85*"/>
+                <ColumnDefinition Width="8*"/>
+                <ColumnDefinition Width="164*"/>
+                <ColumnDefinition Width="58*"/>
+                <ColumnDefinition Width="7*"/>
+                <ColumnDefinition Width="88*"/>
+                <ColumnDefinition Width="7*"/>
+                <ColumnDefinition Width="34*"/>
+                <ColumnDefinition Width="16*"/>
+                <ColumnDefinition Width="6*"/>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="10" Grid.RowSpan="12" BorderBrush="Black" BorderThickness="1"></Border>
+            <Label Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="1" Content="Employee" VerticalAlignment="Center" HorizontalAlignment="Left"></Label>
+            <Label Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="1" Content="Type" VerticalAlignment="Center" HorizontalAlignment="Left" ></Label>
+            <Label Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="1" Content="Date" VerticalAlignment="Center" HorizontalAlignment="Left"></Label>
+            <Label Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="1" Content="Remark" VerticalAlignment="Center" HorizontalAlignment="Left"  ></Label>
+            <Label Grid.Row="9" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="1" Content="Approved By" VerticalAlignment="Center" HorizontalAlignment="Left"  ></Label>
+
+            <ComboBox Grid.Column="4" Grid.ColumnSpan="2" Grid.Row="1" Grid.RowSpan="1" VerticalAlignment="Center" ></ComboBox>
+            <TextBox Grid.Column="7" Grid.ColumnSpan="1" Grid.Row="1" Grid.RowSpan="1" VerticalAlignment="Center"  ></TextBox>
+            <Button Grid.Column="9" Grid.ColumnSpan="1" Grid.Row="1" Grid.RowSpan="1" VerticalAlignment="Center" Content="SE" ></Button>
+
+            <ComboBox Grid.Column="4" Grid.ColumnSpan="1" Grid.Row="3" Grid.RowSpan="1" VerticalAlignment="Center" ></ComboBox>
+
+            <DatePicker Grid.Column="4" Grid.ColumnSpan="1" Grid.Row="5" Grid.RowSpan="1" VerticalAlignment="Center"></DatePicker>
+            <Label Grid.Column="5" Grid.ColumnSpan="1" Grid.Row="5" Grid.RowSpan="1" VerticalAlignment="Center" Content="Remaining" ></Label>
+
+            <TextBox Grid.Column="4" Grid.ColumnSpan="5" Grid.Row="7" Grid.RowSpan="1" VerticalAlignment="Center"></TextBox>
+
+            <ComboBox Grid.Column="4" Grid.ColumnSpan="2" Grid.Row="9" Grid.RowSpan="1" VerticalAlignment="Center" ></ComboBox>
+            <TextBox Grid.Column="7" Grid.ColumnSpan="1" Grid.Row="9" Grid.RowSpan="1" VerticalAlignment="Center"  ></TextBox>
+            <Button Grid.Column="9" Grid.ColumnSpan="1" Grid.Row="9" Grid.RowSpan="1" VerticalAlignment="Center" Content="SE" ></Button>
+
+
+
+        </Grid>
+
+    </Grid>
+</Window>

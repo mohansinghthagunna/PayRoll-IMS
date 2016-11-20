@@ -73,21 +73,197 @@
     <Compile Include="Device Settings\PersonalMap.xaml.cs">
       <DependentUpon>PersonalMap.xaml</DependentUpon>
     </Compile>
+    <Compile Include="File\CompanyInformation.xaml.cs">
+      <DependentUpon>CompanyInformation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Master Setting\Bands.xaml.cs">
+      <DependentUpon>Bands.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Master Setting\Branch.xaml.cs">
+      <DependentUpon>Branch.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Master Setting\Employee Detail.xaml.cs">
+      <DependentUpon>Employee Detail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Master Setting\Grade.xaml.cs">
+      <DependentUpon>Grade.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Master Setting\Holiday.xaml.cs">
+      <DependentUpon>Holiday.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Master Setting\Leave.xaml.cs">
+      <DependentUpon>Leave.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ALLOWANCE.cs" />
+    <Compile Include="Models\ATTENDANCE.cs" />
+    <Compile Include="Models\ATTENDANCE_DELETED.cs" />
+    <Compile Include="Models\ATTENDANCE_LOG.cs" />
+    <Compile Include="Models\BRANCH.cs" />
+    <Compile Include="Models\CARDID_MAPING.cs" />
+    <Compile Include="Models\CLASS.cs" />
+    <Compile Include="Models\DASHINALLOWANCE.cs" />
+    <Compile Include="Models\DASHINALLOWANCE_DETAIL.cs" />
+    <Compile Include="Models\dbo_NepDate.cs" />
+    <Compile Include="Models\DEDUCTION.cs" />
+    <Compile Include="Models\DEFAULT_WORKHOUR.cs" />
+    <Compile Include="Models\DEPARTMENT.cs" />
+    <Compile Include="Models\DESIGNATION.cs" />
+    <Compile Include="Models\DEVICE_SETTING.cs" />
+    <Compile Include="Models\DEVICE_SETTING_MULTI.cs" />
+    <Compile Include="Models\EMP_ABSENTREMARKS.cs" />
+    <Compile Include="Models\EMP_ALLOWANCE_COLLECTION.cs" />
+    <Compile Include="Models\EMP_DAILYOUT.cs" />
+    <Compile Include="Models\EMP_DETAIL.cs" />
+    <Compile Include="Models\EMP_EDUTRN.cs" />
+    <Compile Include="Models\EMP_EXTRAFACILITY.cs" />
+    <Compile Include="Models\EMP_FORCED_HOLIDAYS.cs" />
+    <Compile Include="Models\EMP_FPRINT_3000.cs" />
+    <Compile Include="Models\EMP_JOBLOG.cs" />
+    <Compile Include="Models\EMP_LEAVE.cs" />
+    <Compile Include="Models\EMP_LOG.cs" />
+    <Compile Include="Models\EMP_NOK.cs" />
+    <Compile Include="Models\EMP_OUTSTATION.cs" />
+    <Compile Include="Models\EMP_PERSONALOUT.cs" />
+    <Compile Include="Models\EMP_SALDEDUCT.cs" />
+    <Compile Include="Models\EMP_TRAINING.cs" />
+    <Compile Include="Models\EMP_TRAN.cs" />
+    <Compile Include="Models\GRADE.cs" />
+    <Compile Include="Models\GRADE_TYPE.cs" />
+    <Compile Include="Models\HOLIDAY.cs" />
+    <Compile Include="Models\LEAVE.cs" />
+    <Compile Include="Models\LEAVE_LEDGER.cs" />
+    <Compile Include="Models\LEAVE_LEDGER_TEMP.cs" />
+    <Compile Include="Models\LEAVE_SETTING.cs" />
+    <Compile Include="Models\LOGIN_MODES.cs" />
+    <Compile Include="Models\LOGVALUESETTING.cs" />
+    <Compile Include="Models\MODE.cs" />
+    <Compile Include="Models\NOHOLIDAY_CONDITIONS.cs" />
+    <Compile Include="Models\OTPAID.cs" />
+    <Compile Include="Models\OTPAID_DETAIL.cs" />
+    <Compile Include="Models\OVERTIME.cs" />
+    <Compile Include="Models\REPORT_COL_SETTING.cs" />
+    <Compile Include="Models\SalarySheet.cs" />
+    <Compile Include="Models\SETTING.cs" />
+    <Compile Include="Models\SETTING_PAY.cs" />
+    <Compile Include="Models\SS_COL_SETTING.cs" />
+    <Compile Include="Models\STATUS.cs" />
+    <Compile Include="Models\tblAttendanceHr.cs" />
+    <Compile Include="Models\tblEmpPersonalOutsMnu.cs" />
+    <Compile Include="Models\TBLEMP_DELETED.cs" />
+    <Compile Include="Models\TBLHRSCALCULATION.cs" />
+    <Compile Include="Models\tblINOUT_CONDITIONS.cs" />
+    <Compile Include="Models\TBLJOB.cs" />
+    <Compile Include="Models\tblLateDedCalculation.cs" />
+    <Compile Include="Models\tblLeaveDelete_Log.cs" />
+    <Compile Include="Models\TBLLOGIN_MODES.cs" />
+    <Compile Include="Models\TBLOTHERDB.cs" />
+    <Compile Include="Models\tblSystemLog.cs" />
+    <Compile Include="Models\tblUSER.cs" />
+    <Compile Include="Models\tblUSERBRANCH_AUTHORITY.cs" />
+    <Compile Include="Models\tblUSERSECTION_AUTHORITY.cs" />
+    <Compile Include="Models\tblWEEKDAY_NAMES.cs" />
+    <Compile Include="Models\TBL_PAYMODE.cs" />
+    <Compile Include="Models\TBL_TRAVEL_MODE.cs" />
+    <Compile Include="Models\TBL_TRNTYPE.cs" />
+    <Compile Include="Models\TITLE.cs" />
+    <Compile Include="Models\TRAINING_TYPE.cs" />
+    <Compile Include="Models\USERRIGHT.cs" />
+    <Compile Include="Models\WEEKEND.cs" />
+    <Compile Include="Models\WEEKEND_DETAIL.cs" />
+    <Compile Include="Models\WORK_HOUR.cs" />
+    <Compile Include="Report\Attendance Summary %28Daywise%29.xaml.cs">
+      <DependentUpon>Attendance Summary %28Daywise%29.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Employee Daily Absent Report.xaml.cs">
+      <DependentUpon>Employee Daily Absent Report.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Employee Daily Attendance Report.xaml.cs">
+      <DependentUpon>Employee Daily Attendance Report.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Employee List Gradewise.xaml.cs">
+      <DependentUpon>Employee List Gradewise.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Employee List.xaml.cs">
+      <DependentUpon>Employee List.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Hours Worked%28Daywise%29\Hours Worked Detail%28Daywise%29.xaml.cs">
+      <DependentUpon>Hours Worked Detail%28Daywise%29.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Hours Worked%28Daywise%29\Hours Worked Summary%28Daywise%29.xaml.cs">
+      <DependentUpon>Hours Worked Summary%28Daywise%29.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Leave Report\Annual Leave Register.xaml.cs">
+      <DependentUpon>Annual Leave Register.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Leave Report\Leave Register.xaml.cs">
+      <DependentUpon>Leave Register.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Leave Report\Monthly Leave Detail.xaml.cs">
+      <DependentUpon>Monthly Leave Detail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Monthly Attendance Summary.xaml.cs">
+      <DependentUpon>Monthly Attendance Summary.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Monthly Band Report.xaml.cs">
+      <DependentUpon>Monthly Band Report.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Monthly Late Report.xaml.cs">
+      <DependentUpon>Monthly Late Report.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Monthly Office Out-In.xaml.cs">
+      <DependentUpon>Monthly Office Out-In.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Monthly Travel Report.xaml.cs">
+      <DependentUpon>Monthly Travel Report.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Report\MonthlyAttendance.xaml.cs">
       <DependentUpon>MonthlyAttendance.xaml</DependentUpon>
     </Compile>
-    <Page Include="Branch.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Brands.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="CompanyInformation.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
+    <Compile Include="Report\Time Logs\TimeLog-Daily.xaml.cs">
+      <DependentUpon>TimeLog-Daily.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Time Logs\TimeLog-Monthly.xaml.cs">
+      <DependentUpon>TimeLog-Monthly.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\Attendance-Absent Remarks.xaml.cs">
+      <DependentUpon>Attendance-Absent Remarks.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\Force Attendance.xaml.cs">
+      <DependentUpon>Force Attendance.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\Forced Weekend-Holidays.xaml.cs">
+      <DependentUpon>Forced Weekend-Holidays.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\Leave Management\Add Leave.xaml.cs">
+      <DependentUpon>Add Leave.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\Leave Management\Leave Adjust.xaml.cs">
+      <DependentUpon>Leave Adjust.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\Leave Management\Leave Application.xaml.cs">
+      <DependentUpon>Leave Application.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\Leave Management\Leave Cancellation.xaml.cs">
+      <DependentUpon>Leave Cancellation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\Leave Management\Negative Leave Form.xaml.cs">
+      <DependentUpon>Negative Leave Form.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\Office Out-In Remark.xaml.cs">
+      <DependentUpon>Office Out-In Remark.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\Official Training.xaml.cs">
+      <DependentUpon>Official Training.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\Personal Out-In Remark.xaml.cs">
+      <DependentUpon>Personal Out-In Remark.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\Travel Attendance.xaml.cs">
+      <DependentUpon>Travel Attendance.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\Travel Entry Slip.xaml.cs">
+      <DependentUpon>Travel Entry Slip.xaml</DependentUpon>
+    </Compile>
     <Page Include="Data Utility\BackUpDatabase.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -112,6 +288,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="File\CompanyInformation.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -120,22 +300,157 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Branch.xaml.cs">
-      <DependentUpon>Branch.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Brands.xaml.cs">
-      <DependentUpon>Brands.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="CompanyInformation.xaml.cs">
-      <DependentUpon>CompanyInformation.xaml</DependentUpon>
-    </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Master Setting\Bands.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Master Setting\Branch.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Master Setting\Employee Detail.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Master Setting\Grade.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Master Setting\Holiday.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Master Setting\Leave.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Report\Attendance Summary %28Daywise%29.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Report\Employee Daily Absent Report.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Report\Employee Daily Attendance Report.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Report\Employee List Gradewise.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Report\Employee List.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Report\Hours Worked%28Daywise%29\Hours Worked Detail%28Daywise%29.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Report\Hours Worked%28Daywise%29\Hours Worked Summary%28Daywise%29.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Report\Leave Report\Annual Leave Register.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Report\Leave Report\Leave Register.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Report\Leave Report\Monthly Leave Detail.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Report\Monthly Attendance Summary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Report\Monthly Band Report.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Report\Monthly Late Report.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Report\Monthly Office Out-In.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Report\Monthly Travel Report.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Report\MonthlyAttendance.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Report\Time Logs\TimeLog-Daily.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Report\Time Logs\TimeLog-Monthly.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Transaction\Attendance-Absent Remarks.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Transaction\Force Attendance.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Transaction\Forced Weekend-Holidays.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Transaction\Leave Management\Add Leave.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Transaction\Leave Management\Leave Adjust.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Transaction\Leave Management\Leave Application.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Transaction\Leave Management\Leave Cancellation.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Transaction\Leave Management\Negative Leave Form.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Transaction\Office Out-In Remark.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Transaction\Official Training.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Transaction\Personal Out-In Remark.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Transaction\Travel Attendance.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Transaction\Travel Entry Slip.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>
@@ -166,6 +481,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\creatudevelopers_logo.png" />
+    <Resource Include="Images\excel.png" />
+    <Resource Include="Images\ims_icons.png" />
+    <Resource Include="Images\play.png" />
+    <Resource Include="Images\preview.png" />
+    <Resource Include="Images\print.png" />
+    <Resource Include="Images\settings.png" />
+    <Resource Include="Images\time_trax.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

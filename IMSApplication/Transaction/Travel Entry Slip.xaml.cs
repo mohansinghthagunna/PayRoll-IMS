@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Shapes;
+using IMS;
+
+namespace IMSApplication.Transaction
+{
+    /// <summary>
+    /// Interaction logic for Travel_Entry_Slip.xaml
+    /// </summary>
+    public partial class Travel_Entry_Slip : Window
+    {
+        private MainWindow _parentwindow;
+        public Travel_Entry_Slip(MainWindow mainwindow)
+        {
+            InitializeComponent();
+            _parentwindow = mainwindow;
+        }
+    }
+}
