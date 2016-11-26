@@ -444,7 +444,7 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\excel.png" />
-    <Resource Include="Images\ims_icons.png" />
+    <Content Include="Images\search.png" />
     <Resource Include="Images\play.png" />
     <Resource Include="Images\preview.png" />
     <Resource Include="Images\print.png" />

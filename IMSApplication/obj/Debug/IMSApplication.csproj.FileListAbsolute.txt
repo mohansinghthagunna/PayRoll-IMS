@@ -99,3 +99,4 @@ C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\
 C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Transaction\Personal Out-In Remark.g.cs
 C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Transaction\Official Training.baml
 C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\Transaction\Official Training.g.cs
+C:\Users\Rabi\Documents\SQL Server Management Studio\PayRoll-IMS\IMSApplication\obj\Debug\IMSApplication_Content.g.cs
