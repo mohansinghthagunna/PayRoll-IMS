@@ -1,0 +1,368 @@
+﻿<Window x:Class="IMSApplication.Report.MonthlyAttendance"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/20010"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IMSApplication.Report"
+        mc:Ignorable="d"
+        Title="MonthlyAttendance" Height="600" Width="960"  
+        WindowStartupLocation="CenterScreen" MinWidth="960" MinHeight="600" >
+    <Border  BorderBrush="Gray" Margin="4" BorderThickness="1">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="19*"/>
+                <RowDefinition Height="241*"/>
+            </Grid.RowDefinitions>
+            <Border BorderBrush="Gray" Margin="4" BorderThickness="1">
+                <Grid Grid.Row="0" Margin="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" MinWidth="160"/>
+                        <ColumnDefinition Width="*" MinWidth="160"/>
+                        <ColumnDefinition Width="*" MinWidth="160"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*" MinWidth="160"/>
+                        <ColumnDefinition Width="*" MinWidth="160"/>
+                        <ColumnDefinition Width="*" MinWidth="160"/>
+                    </Grid.ColumnDefinitions>
+                    <Border Margin="1" BorderBrush="Gray" BorderThickness="1">
+                        <Grid >
+                            <StackPanel Orientation="Horizontal">
+                                <RadioButton Content="Date" FontSize="12" VerticalAlignment="Center" 
+                                         Margin="0,3,20,0"/>
+                                <RadioButton Content="MTI" FontSize="12" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </Grid>
+                    </Border>
+
+                    <Grid Grid.Column="1" Margin="1" >
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Month:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                            <ComboBox VerticalAlignment="Center" Width="100">
+                                <ComboBoxItem>
+                                    January
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    Febraury
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    March
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    April
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    May
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    June
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    July
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    August
+                                </ComboBoxItem>
+                            </ComboBox>
+                        </StackPanel>
+                    </Grid>
+                    <Grid Grid.Column="2">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Year:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                            <TextBox VerticalAlignment="Center" Width="70" MaxLength="4" 
+                                     PreviewTextInput="TextBox_PreviewTextInput"></TextBox>
+                        </StackPanel>
+                    </Grid>
+                    <Grid Grid.Column="5" Grid.ColumnSpan="3">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" MinWidth="82"/>
+                            <ColumnDefinition Width="*" MinWidth="82"/>
+                            <ColumnDefinition Width="*" MinWidth="82"/>
+                            <ColumnDefinition Width="*" MinWidth="82"/>
+                            <ColumnDefinition Width="*" MinWidth="82"/>
+                            <ColumnDefinition Width="*" MinWidth="82"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0">
+                            <TextBlock Text="Load" VerticalAlignment="Center" 
+                                       HorizontalAlignment="Center"/>
+                        </Grid>
+                        <Grid Grid.Column="1" >
+                            <TextBlock Text="Print" VerticalAlignment="Center"
+                                       HorizontalAlignment="Center"/>
+                        </Grid>
+                        <Grid Grid.Column="2" >
+                            <TextBlock Text="Preview" VerticalAlignment="Center" 
+                                       HorizontalAlignment="Center"/>
+                        </Grid>
+                        <Grid Grid.Column="3" >
+                            <TextBlock Text="Excel" VerticalAlignment="Center" 
+                                       HorizontalAlignment="Center"/>
+                        </Grid>
+                        <Grid Grid.Column="4" >
+                            <TextBlock Text="Settings" VerticalAlignment="Center" 
+                                       HorizontalAlignment="Center"/>
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </Border>
+
+            <Border BorderBrush="Gray"  Grid.Row="1" Margin="4" BorderThickness="1">
+                <Grid Grid.Row="1" Margin="5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="35*"/>
+                        <RowDefinition Height="500*"/>
+                        <RowDefinition Height="103*"/>
+                    </Grid.RowDefinitions>
+                    <Border Margin="2" BorderBrush="Gray" BorderThickness="1">
+                        <Grid Grid.Row="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="150*" MinWidth="305"/>
+                                <ColumnDefinition Width="500*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid Grid.Column="0" >
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Employee Id" HorizontalAlignment="Center" 
+                                           VerticalAlignment="Center" Margin="5"/>
+                                    <Button  VerticalAlignment="Center" Content="Previous" Width="60"/>
+                                    <TextBox  VerticalAlignment="Center" Width="80" Margin="5"></TextBox>
+                                    <Button VerticalAlignment="Center" Content="Next" Width="60"/>
+                                </StackPanel>
+                            </Grid>
+                            <Grid Grid.Column="1">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Employee Name" HorizontalAlignment="Center" 
+                                           VerticalAlignment="Center" Margin="5"/>
+                                    <ComboBox VerticalAlignment="Center" Width="300">
+                                        <ComboBoxItem>Hari</ComboBoxItem>
+                                        <ComboBoxItem>Rabi</ComboBoxItem>
+                                        <ComboBoxItem>Ram</ComboBoxItem>
+                                        <ComboBoxItem>Nisha</ComboBoxItem>
+                                        <ComboBoxItem>Shyam</ComboBoxItem>
+                                    </ComboBox>
+                                </StackPanel>
+                            </Grid>
+                        </Grid>
+                    </Border>
+                    <Grid Grid.Row="1" Margin="3" >
+                        <DataGrid Grid.RowSpan="2">
+                        </DataGrid>
+                    </Grid>
+                    <Grid Grid.Row="2">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30*"/>
+                            <RowDefinition Height="40*"/>
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Grid.Column="0" Orientation="Horizontal">
+                                <Rectangle VerticalAlignment ="Center" Width="30" Height="20" Fill="Red"/>
+                                <TextBlock Text="Week-End" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="1" Orientation="Horizontal">
+                                <Rectangle VerticalAlignment ="Center" Width="30" Height="20" Fill="Gray"/>
+                                <TextBlock Text="Absent" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="2" Orientation="Horizontal">
+                                <Rectangle VerticalAlignment ="Center" Width="30" Height="20" Fill="#FFAEAE47"/>
+                                <TextBlock Text="Holiday" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="3" Orientation="Horizontal">
+                                <Rectangle VerticalAlignment ="Center" Width="30" Height="20" Fill="Green"/>
+                                <TextBlock Text="Bands" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="4" Orientation="Horizontal">
+                                <Rectangle VerticalAlignment ="Center" Width="30" Height="20" Fill="Orange"/>
+                                <TextBlock Text="Negative Leave" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="5" Orientation="Horizontal">
+                                <Rectangle VerticalAlignment ="Center" Width="30" Height="20" Fill="Yellow"/>
+                                <TextBlock Text="Half Day Leave" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="6" Orientation="Horizontal">
+                                <Rectangle VerticalAlignment ="Center" Width="30" Height="20" Fill="AliceBlue"/>
+                                <TextBlock Text="Full Day Leave" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                            </StackPanel>
+                        </Grid>
+                        <Border Grid.Row="1" BorderBrush="Gray" BorderThickness="1">
+                            <Grid Grid.Row="1">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Grid Margin="2" Grid.Row="0" Grid.Column="0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="46*"/>
+                                        <ColumnDefinition Width="17*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+                                    <Border BorderBrush="Turquoise" BorderThickness="1,1,1,0">
+                                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Total Days" FontSize="10"></TextBlock>
+                                    </Border>
+                                    <Border BorderBrush="Turquoise" BorderThickness="1" Grid.Row="1" >
+                                        <TextBlock Grid.Column="0" Text="Week End" FontSize="10"></TextBlock>
+                                    </Border>
+                                    <Border BorderBrush="Turquoise" BorderThickness="1,0,1,1" Grid.Row="2">
+                                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Holidays" FontSize="10"></TextBlock>
+                                    </Border>
+                                    <Border BorderBrush="Turquoise" BorderThickness="0,1,1,0" Grid.Row="0"   Grid.Column="1">
+                                        <TextBlock FontSize="10"></TextBlock>
+                                    </Border>
+                                    <Border BorderBrush="Turquoise" BorderThickness="0,1,1,1" Grid.Row="1" Grid.Column="1" >
+                                        <TextBlock  FontSize="10"></TextBlock>
+                                    </Border>
+                                    <Border BorderBrush="Turquoise" BorderThickness="0,0,1,1" Grid.Row="2" Grid.Column="1">
+                                        <TextBlock FontSize="10"></TextBlock>
+                                    </Border>
+
+                                </Grid>
+                                
+                                <Grid Margin="2" Grid.Row="0" Grid.Column="2">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="46*"/>
+                                        <ColumnDefinition Width="17*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+                                    <Border BorderBrush="Turquoise" BorderThickness="1,1,1,0">
+                                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Total Working Days" FontSize="10"></TextBlock>
+                                    </Border>
+                                    <Border BorderBrush="Turquoise" BorderThickness="1" Grid.Row="1" >
+                                        <TextBlock Grid.Column="0" Text="Present Days" FontSize="10"></TextBlock>
+                                    </Border>
+                                    <Border BorderBrush="Turquoise" BorderThickness="1,0,1,1" Grid.Row="2">
+                                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Absent Days" FontSize="10"></TextBlock>
+                                    </Border>
+                                    <Border BorderBrush="Turquoise" BorderThickness="0,1,1,0" Grid.Row="0"   Grid.Column="1">
+                                        <TextBlock FontSize="10"></TextBlock>
+                                    </Border>
+                                    <Border BorderBrush="Turquoise" BorderThickness="0,1,1,1" Grid.Row="1" Grid.Column="1" >
+                                        <TextBlock  FontSize="10"></TextBlock>
+                                    </Border>
+                                    <Border BorderBrush="Turquoise" BorderThickness="0,0,1,1" Grid.Row="2" Grid.Column="1">
+                                        <TextBlock FontSize="10"></TextBlock>
+                                    </Border>
+
+                                </Grid>
+
+                                <Grid Margin="2" Grid.Row="0" Grid.Column="4">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="46*"/>
+                                        <ColumnDefinition Width="17*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+                                    <Border BorderBrush="Turquoise" BorderThickness="1,1,1,0">
+                                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Negative Leave" FontSize="10"></TextBlock>
+                                    </Border>
+                                    <Border BorderBrush="Turquoise" BorderThickness="1" Grid.Row="1" >
+                                        <TextBlock Grid.Column="0" Text="Uncounted P Days(*)" FontSize="10"></TextBlock>
+                                    </Border>
+                                    <Border BorderBrush="Turquoise" BorderThickness="1,0,1,1" Grid.Row="2">
+                                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Travel Days" FontSize="10"></TextBlock>
+                                    </Border>
+                                    <Border BorderBrush="Turquoise" BorderThickness="0,1,1,0" Grid.Row="0"   Grid.Column="1">
+                                        <TextBlock FontSize="10"></TextBlock>
+                                    </Border>
+                                    <Border BorderBrush="Turquoise" BorderThickness="0,1,1,1" Grid.Row="1" Grid.Column="1" >
+                                        <TextBlock  FontSize="10"></TextBlock>
+                                    </Border>
+                                    <Border BorderBrush="Turquoise" BorderThickness="0,0,1,1" Grid.Row="2" Grid.Column="1">
+                                        <TextBlock FontSize="10"></TextBlock>
+                                    </Border>
+
+                                </Grid>
+
+                                <Grid Margin="2" Grid.Row="0" Grid.Column="6">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="46*"/>
+                                        <ColumnDefinition Width="17*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+                                    <Border BorderBrush="Turquoise" BorderThickness="1,1,1,0">
+                                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Leave Remaining" FontSize="10"></TextBlock>
+                                    </Border>
+                                    <Border BorderBrush="Turquoise" BorderThickness="1" Grid.Row="1" >
+                                        <TextBlock Grid.Column="0" Text="Leave Taken (Paid)" FontSize="10"></TextBlock>
+                                    </Border>
+                                    <Border BorderBrush="Turquoise" BorderThickness="1,0,1,1" Grid.Row="2">
+                                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Laeve Taken (Unpaid)" FontSize="10"></TextBlock>
+                                    </Border>
+                                    <Border BorderBrush="Turquoise" BorderThickness="0,1,1,0" Grid.Row="0"   Grid.Column="1">
+                                        <TextBlock FontSize="10"></TextBlock>
+                                    </Border>
+                                    <Border BorderBrush="Turquoise" BorderThickness="0,1,1,1" Grid.Row="1" Grid.Column="1" >
+                                        <TextBlock  FontSize="10"></TextBlock>
+                                    </Border>
+                                    <Border BorderBrush="Turquoise" BorderThickness="0,0,1,1" Grid.Row="2" Grid.Column="1">
+                                        <TextBlock FontSize="10"></TextBlock>
+                                    </Border>
+
+                                </Grid>
+                                <Grid Margin="2" Grid.Row="0" Grid.Column="0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="46*"/>
+                                        <ColumnDefinition Width="17*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+                                    <Border BorderBrush="Turquoise" BorderThickness="1,1,1,0">
+                                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Total Days" FontSize="10"></TextBlock>
+                                    </Border>
+                                    <Border BorderBrush="Turquoise" BorderThickness="1" Grid.Row="1" >
+                                        <TextBlock Grid.Column="0" Text="Week End" FontSize="10"></TextBlock>
+                                    </Border>
+                                    <Border BorderBrush="Turquoise" BorderThickness="1,0,1,1" Grid.Row="2">
+                                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Holidays" FontSize="10"></TextBlock>
+                                    </Border>
+                                    <Border BorderBrush="Turquoise" BorderThickness="0,1,1,0" Grid.Row="0"   Grid.Column="1">
+                                        <TextBlock FontSize="10"></TextBlock>
+                                    </Border>
+                                    <Border BorderBrush="Turquoise" BorderThickness="0,1,1,1" Grid.Row="1" Grid.Column="1" >
+                                        <TextBlock  FontSize="10"></TextBlock>
+                                    </Border>
+                                    <Border BorderBrush="Turquoise" BorderThickness="0,0,1,1" Grid.Row="2" Grid.Column="1">
+                                        <TextBlock FontSize="10"></TextBlock>
+                                    </Border>
+                                </Grid>
+                            </Grid>
+                        </Border>
+                    </Grid>
+                </Grid>
+            </Border>
+        </Grid>
+    </Border>
+</Window>
